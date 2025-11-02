@@ -1,0 +1,16 @@
+node_modules/
+dist/
+build/
+.vite/
+.next/
+coverage/
+.cache/
+*.log
+.env
+.env.*
+uploads/
+exports/
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

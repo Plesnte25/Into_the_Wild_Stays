@@ -1,0 +1,177 @@
+Cleanup started at Sat Nov  1 10:42:19 PM IST 2025
+[CLEANUP] Starting Deep Cleanup Sprint
+------------------------------------------------------------
+------------------------------------------------------------
+[CLEANUP] Project path: Admin Panel/intothewilds-admin-frontend
+[CLEANUP] Installing deps (npm ci --no-audit --no-fund)
+
+added 243 packages in 2s
+[CLEANUP] install step took 1s
+[CLEANUP] Pruning + deduping
+
+up to date, audited 244 packages in 707ms
+
+46 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+up to date, audited 244 packages in 913ms
+
+46 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+[CLEANUP] Running depcheck (bounded 420s) in Admin Panel/intothewilds-admin-frontend
+[CLEANUP] No unused dependencies found.
+[CLEANUP] depcheck step took 420s
+[CLEANUP] Running lint:fix + format (best effort)
+npm error Missing script: "lint:fix"
+npm error
+npm error To see a list of scripts, run:
+npm error   npm run
+npm error A complete log of this run can be found in: /home/plesnte/.npm/_logs/2025-11-01T17_19_22_840Z-debug-0.log
+npm error Missing script: "format"
+npm error
+npm error To see a list of scripts, run:
+npm error   npm run
+npm error A complete log of this run can be found in: /home/plesnte/.npm/_logs/2025-11-01T17_19_22_980Z-debug-0.log
+[CLEANUP] Running npm audit (bounded 120s)
+[CLEANUP] audit step took 0s
+------------------------------------------------------------
+[CLEANUP] Project path: Admin Panel/intothewilds-admin-backend
+[CLEANUP] Installing deps (npm ci --no-audit --no-fund)
+npm warn deprecated q@1.5.1: You or someone you depend on is using Q, the JavaScript Promise library that gave JavaScript developers strong feelings about promises. They can almost certainly migrate to the native JavaScript promise now. Thank you literally everyone for joining me in this bet against the odds. Be excellent to each other.
+npm warn deprecated
+npm warn deprecated (For a CapTP with native promises, see @endo/eventual-send and @endo/captp)
+
+added 227 packages in 3s
+[CLEANUP] install step took 4s
+[CLEANUP] Pruning + deduping
+
+up to date, audited 228 packages in 1s
+
+30 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+removed 1 package, changed 1 package, and audited 227 packages in 3s
+
+30 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+[CLEANUP] Running depcheck (bounded 420s) in Admin Panel/intothewilds-admin-backend
+[CLEANUP] No unused dependencies found.
+[CLEANUP] depcheck step took 420s
+[CLEANUP] Running lint:fix + format (best effort)
+npm error Missing script: "lint:fix"
+npm error
+npm error To see a list of scripts, run:
+npm error   npm run
+npm error A complete log of this run can be found in: /home/plesnte/.npm/_logs/2025-11-01T17_26_38_564Z-debug-0.log
+npm error Missing script: "format"
+npm error
+npm error To see a list of scripts, run:
+npm error   npm run
+npm error A complete log of this run can be found in: /home/plesnte/.npm/_logs/2025-11-01T17_26_38_692Z-debug-0.log
+[CLEANUP] Running npm audit (bounded 120s)
+[CLEANUP] audit step took 1s
+------------------------------------------------------------
+[CLEANUP] Project path: Website/intoTheWilds-frontend-main
+[CLEANUP] Installing deps (npm ci --no-audit --no-fund)
+npm warn deprecated emailjs-com@3.2.0: The SDK name changed to @emailjs/browser
+
+added 456 packages in 14s
+[CLEANUP] install step took 14s
+[CLEANUP] Pruning + deduping
+
+up to date, audited 457 packages in 2s
+
+140 packages are looking for funding
+  run `npm fund` for details
+
+2 moderate severity vulnerabilities
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+
+changed 12 packages, and audited 457 packages in 4s
+
+140 packages are looking for funding
+  run `npm fund` for details
+
+2 moderate severity vulnerabilities
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+[CLEANUP] Running depcheck (bounded 420s) in Website/intoTheWilds-frontend-main
+[CLEANUP] No unused dependencies found.
+[CLEANUP] depcheck step took 420s
+[CLEANUP] Running lint:fix + format (best effort)
+npm error Missing script: "lint:fix"
+npm error
+npm error To see a list of scripts, run:
+npm error   npm run
+npm error A complete log of this run can be found in: /home/plesnte/.npm/_logs/2025-11-01T17_33_59_999Z-debug-0.log
+npm error Missing script: "format"
+npm error
+npm error To see a list of scripts, run:
+npm error   npm run
+npm error A complete log of this run can be found in: /home/plesnte/.npm/_logs/2025-11-01T17_34_00_141Z-debug-0.log
+[CLEANUP] Running npm audit (bounded 120s)
+[CLEANUP] audit step took 1s
+------------------------------------------------------------
+[CLEANUP] Project path: Website/intothewilds-backend-main
+[CLEANUP] Installing deps (npm ci --no-audit --no-fund)
+npm warn deprecated node-domexception@1.0.0: Use your platform's native DOMException instead
+
+added 166 packages in 3s
+[CLEANUP] install step took 3s
+[CLEANUP] Pruning + deduping
+
+up to date, audited 167 packages in 846ms
+
+24 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+added 47 packages, removed 7 packages, changed 8 packages, and audited 207 packages in 4s
+
+38 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+[CLEANUP] Running depcheck (bounded 420s) in Website/intothewilds-backend-main
+[CLEANUP] No unused dependencies found.
+[CLEANUP] depcheck step took 420s
+[CLEANUP] Running lint:fix + format (best effort)
+npm error Missing script: "lint:fix"
+npm error
+npm error To see a list of scripts, run:
+npm error   npm run
+npm error A complete log of this run can be found in: /home/plesnte/.npm/_logs/2025-11-01T17_41_09_858Z-debug-0.log
+npm error Missing script: "format"
+npm error
+npm error To see a list of scripts, run:
+npm error   npm run
+npm error A complete log of this run can be found in: /home/plesnte/.npm/_logs/2025-11-01T17_41_09_988Z-debug-0.log
+[CLEANUP] Running npm audit (bounded 120s)
+[CLEANUP] audit step took 1s
+------------------------------------------------------------
+[CLEANUP] Generating final git status and summary...
+On branch chore/deep-clean-20251101-2242
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   ../../cleanup-report.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+------------------------------------------------------------
+[CLEANUP] Cleanup completed successfully at Sat Nov  1 11:11:11 PM IST 2025

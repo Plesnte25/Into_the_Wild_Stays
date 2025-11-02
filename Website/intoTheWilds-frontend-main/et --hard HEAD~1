@@ -1,0 +1,262 @@
+[33mcommit bb35c5d399bf63ed89e2f8099196f83242392cc4[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Om6214 <omnathganapure9981@gmail.com>
+Date:   Thu Jan 16 18:44:57 2025 +0530
+
+    frontend bug fixed
+
+[33mcommit 2680cf57c078d84ad0d7e52ef2a24fd7b34b5bd9[m
+Author: Sheikh Aamir <113338901+aamirk0008@users.noreply.github.com>
+Date:   Tue Jan 14 17:14:14 2025 +0530
+
+    Update ContactUs.jsx
+
+[33mcommit 8bb11150604c57b3268a95298a1349826f527782[m
+Author: RoshanTambe44 <roshantambe675@gmail.com>
+Date:   Tue Jan 14 12:44:44 2025 +0530
+
+    bug fixed in GalleryAndReview.jsx
+
+[33mcommit d6f7badec7db1f119543ee94f665a5c24746abf6[m
+Author: RoshanTambe44 <roshantambe675@gmail.com>
+Date:   Mon Jan 13 23:23:00 2025 +0530
+
+    date validation on book now
+
+[33mcommit 410697c2026a60b7888bfc9c677c4bd095aca281[m
+Author: RoshanTambe44 <roshantambe675@gmail.com>
+Date:   Mon Jan 13 21:30:15 2025 +0530
+
+    change format in tours detail page
+
+[33mcommit 45dc90db4bb7cb4b9f8560901d1381b8da3edc4e[m
+Author: RoshanTambe44 <roshantambe675@gmail.com>
+Date:   Mon Jan 13 21:18:44 2025 +0530
+
+    bug fixed in footer
+
+[33mcommit b85910b7dc53919181fe52b6b74401b43928981e[m
+Author: aamirk0008 <113338901+aamirk0008@users.noreply.github.com>
+Date:   Mon Jan 13 20:23:41 2025 +0530
+
+    bugs fixed
+
+[33mcommit 60ec61af0f2b734a098f0bf1e8f1c1a5efdca178[m
+Author: aamirk0008 <113338901+aamirk0008@users.noreply.github.com>
+Date:   Mon Jan 13 19:59:12 2025 +0530
+
+    bugs fixed
+
+[33mcommit 18cf3f71df946a251664428509381157e318b325[m
+Author: aamirk0008 <113338901+aamirk0008@users.noreply.github.com>
+Date:   Mon Jan 13 18:48:13 2025 +0530
+
+    amendments homepage 2.0
+
+[33mcommit 47ad554886dc6f2b442031482ed7f8aa666af47f[m
+Author: RoshanTambe44 <roshantambe675@gmail.com>
+Date:   Mon Jan 13 17:02:41 2025 +0530
+
+    add routes in tour list
+
+[33mcommit 4ff135dede5ce2c87b2136582f2e91785960d68d[m
+Author: RoshanTambe44 <roshantambe675@gmail.com>
+Date:   Mon Jan 13 16:37:55 2025 +0530
+
+    Amenities
+
+[33mcommit 72e60ce53f7a5ee4716fa27ea5c2d9bd43f56056[m
+Merge: 81aa992 edfcdd8
+Author: RoshanTambe44 <roshantambe675@gmail.com>
+Date:   Mon Jan 13 15:45:25 2025 +0530
+
+    Merge branch 'main' of https://github.com/House-of-marktech-01/intoTheWilds-frontend
+
+[33mcommit 81aa992f81cd856618ce116bbc017c757d2b13f5[m
+Author: RoshanTambe44 <roshantambe675@gmail.com>
+Date:   Mon Jan 13 15:45:20 2025 +0530
+
+    ui changes
+
+[33mcommit edfcdd8296d80bcfc6b5b4be2504718cdacb4537[m
+Author: aamirk0008 <113338901+aamirk0008@users.noreply.github.com>
+Date:   Mon Jan 13 14:49:44 2025 +0530
+
+    amendments tours page
+
+[33mcommit efb19d29caf41da2082097642c12c722ec8d01c4[m
+Merge: 96923e3 ae9be69
+Author: RoshanTambe44 <roshantambe675@gmail.com>
+Date:   Mon Jan 13 13:47:30 2025 +0530
+
+    Merge branches 'main' and 'main' of https://github.com/House-of-marktech-01/intoTheWilds-frontend
+
+[33mcommit 96923e31f52dad576cef88181e38b55f8a184831[m
+Author: RoshanTambe44 <roshantambe675@gmail.com>
+Date:   Mon Jan 13 13:47:16 2025 +0530
+
+    respo changes for properties page
+
+[33mcommit ae9be69a8fedeea088f8410099f0925f27b27fe7[m
+Merge: ad92fa0 d93caf7
+Author: Vaibhav Shinde <vshinde2217@gmail.com>
+Date:   Fri Jan 10 20:00:32 2025 +0530
+
+    tours
+
+[33mcommit ad92fa017adc5a88e70c723d9d92db14e3e95039[m
+Author: Vaibhav Shinde <vshinde2217@gmail.com>
+Date:   Fri Jan 10 19:58:15 2025 +0530
+
+    tours
+
+[33mcommit d93caf75f290a7478555173e40665eb397ee8f3b[m
+Author: aamirk0008 <113338901+aamirk0008@users.noreply.github.com>
+Date:   Fri Jan 10 19:41:25 2025 +0530
+
+    amendments all over website 2.6
+
+[33mcommit a47a4baee5c6a36b89e5848af4284d180b58c516[m
+Author: aamirk0008 <113338901+aamirk0008@users.noreply.github.com>
+Date:   Fri Jan 10 19:33:42 2025 +0530
+
+    amendments all over website 2.5
+
+[33mcommit 23699cf0e535d8744ed13ede85e4d482d87a9c31[m
+Author: aamirk0008 <113338901+aamirk0008@users.noreply.github.com>
+Date:   Fri Jan 10 19:15:22 2025 +0530
+
+    amendments all over website 2.4
+
+[33mcommit ec213c44c49769d98c991c4d9639e030cc63ca19[m
+Author: Vaibhav Shinde <vshinde2217@gmail.com>
+Date:   Fri Jan 10 19:11:28 2025 +0530
+
+    tours
+
+[33mcommit cbdc5c13688a47c0828637c04ac160c2fc538d0d[m
+Author: aamirk0008 <113338901+aamirk0008@users.noreply.github.com>
+Date:   Fri Jan 10 19:06:03 2025 +0530
+
+    amendments all over website 2.3
+
+[33mcommit 8d39ca3cf671c54a7ad95b8a1ef10c11f1fca562[m
+Merge: 44e2dec a5c4af7
+Author: Vaibhav Shinde <vshinde2217@gmail.com>
+Date:   Fri Jan 10 18:50:17 2025 +0530
+
+    tours
+
+[33mcommit 44e2decd38a84d456186f8bf433f35342ace0f94[m
+Author: Vaibhav Shinde <vshinde2217@gmail.com>
+Date:   Fri Jan 10 18:49:34 2025 +0530
+
+    tours
+
+[33mcommit dcf2143d72220e1e4e35c64716543bf16bca15f8[m
+Author: Vaibhav Shinde <vshinde2217@gmail.com>
+Date:   Fri Jan 10 18:42:21 2025 +0530
+
+    tours
+
+[33mcommit a5c4af7e9fa296af7ac832edb6c39929c235ce4e[m
+Merge: ddfa7ff b103687
+Author: RoshanTambe44 <roshantambe675@gmail.com>
+Date:   Fri Jan 10 18:26:27 2025 +0530
+
+    Merge branch 'main' of https://github.com/House-of-marktech-01/intoTheWilds-frontend
+
+[33mcommit ddfa7ff09a6d1c36c85a87290d061d5d7817cac0[m
+Author: RoshanTambe44 <roshantambe675@gmail.com>
+Date:   Fri Jan 10 18:26:20 2025 +0530
+
+    sticky div change
+
+[33mcommit b10368769727acef3b034f8cfeab2af8e04eae9c[m
+Merge: f700562 19d1731
+Author: Vaibhav Shinde <vshinde2217@gmail.com>
+Date:   Fri Jan 10 18:25:50 2025 +0530
+
+    tours
+
+[33mcommit f700562d30c1bef96b9a79f8258641e5f8ec684f[m
+Merge: 86dac07 b0adb68
+Author: Vaibhav Shinde <vshinde2217@gmail.com>
+Date:   Fri Jan 10 18:24:28 2025 +0530
+
+    tours
+
+[33mcommit 19d17316c11fcf7e62aee5ce6ffdf46929ef8d46[m
+Author: aamirk0008 <113338901+aamirk0008@users.noreply.github.com>
+Date:   Fri Jan 10 18:24:13 2025 +0530
+
+    amendments all over website 2.2
+
+[33mcommit f1df5e1191f09825d56224eb9e252ea1959662e9[m
+Merge: 5c6163b b0adb68
+Author: RoshanTambe44 <roshantambe675@gmail.com>
+Date:   Fri Jan 10 18:21:57 2025 +0530
+
+    Merge branch 'main' of https://github.com/House-of-marktech-01/intoTheWilds-frontend
+
+[33mcommit 5c6163b63d0d831669872711eb655d0705e71bcc[m
+Author: RoshanTambe44 <roshantambe675@gmail.com>
+Date:   Fri Jan 10 18:21:33 2025 +0530
+
+    changes
+
+[33mcommit 86dac0706cb44bc18a754a491549846bb51ad043[m
+Author: Vaibhav Shinde <vshinde2217@gmail.com>
+Date:   Fri Jan 10 18:20:15 2025 +0530
+
+    tours
+
+[33mcommit b0adb682ccbf96ff2daeb1e2320faaef7f6112d8[m
+Merge: 94d2750 58054b6
+Author: aamirk0008 <113338901+aamirk0008@users.noreply.github.com>
+Date:   Fri Jan 10 18:18:02 2025 +0530
+
+    Merge branch 'main' of https://github.com/House-of-marktech-01/intoTheWilds-frontend
+
+[33mcommit 94d27505efd5c3c64049f0a1ebce0be17d35cf79[m
+Author: aamirk0008 <113338901+aamirk0008@users.noreply.github.com>
+Date:   Fri Jan 10 18:17:52 2025 +0530
+
+    amendments all over website 2.1
+
+[33mcommit 58054b687f1285b7af31cf051b3f441dcb4c79cc[m
+Author: RoshanTambe44 <roshantambe675@gmail.com>
+Date:   Fri Jan 10 18:16:38 2025 +0530
+
+    changes in stiky divs
+
+[33mcommit f478248f124540110f33bb2f62dfee9a050bc8ff[m
+Merge: 818f652 a44fab5
+Author: RoshanTambe44 <roshantambe675@gmail.com>
+Date:   Fri Jan 10 18:10:15 2025 +0530
+
+    Merge branch 'main' of https://github.com/House-of-marktech-01/intoTheWilds-frontend
+
+[33mcommit 818f65242e0b6814e5cc36e637cc24e6889a6ee0[m
+Author: RoshanTambe44 <roshantambe675@gmail.com>
+Date:   Fri Jan 10 18:10:08 2025 +0530
+
+    some ui changes
+
+[33mcommit a44fab59dcec25feab5c1df7e9fb49a71f2d36f4[m
+Author: aamirk0008 <113338901+aamirk0008@users.noreply.github.com>
+Date:   Fri Jan 10 17:32:14 2025 +0530
+
+    amendments all over website 2.0
+
+[33mcommit 1bf03a8cef61083ea8c9a59d295c56411bf9633d[m
+Author: aamirk0008 <113338901+aamirk0008@users.noreply.github.com>
+Date:   Fri Jan 10 17:25:46 2025 +0530
+
+    amendments all over website
+
+[33mcommit 130b5a7e70ea0564975fa3bb57e21e1d1535b8c5[m
+Merge: 5a6e75a cc4df98
+Author: aamirk0008 <113338901+aamirk0008@users.noreply.github.com>
+Date:   Fri Jan 10 16:45:05 2025 +0530
+
+    Merge branch 'main' of https://github.com/House-of-marktech-01/intoTheWilds-fro

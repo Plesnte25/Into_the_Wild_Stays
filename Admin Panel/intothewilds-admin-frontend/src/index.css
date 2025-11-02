@@ -1,0 +1,64 @@
+@import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+:root {
+  color-scheme: light;
+  --color-dark-space: 34 40 49;
+  --color-black-grey: 57 62 70;
+  --color-teal: 0 173 181;
+  --color-light-grey: 238 238 238;
+}
+
+body {
+  margin: 0;
+  font-family: "Ubuntu", serif;
+  font-style: normal;
+}
+
+/* Force the colors to be available */
+@layer utilities {
+  .bg-dark-space {
+    background-color: rgb(var(--color-dark-space));
+  }
+  .bg-black-grey {
+    background-color: rgb(var(--color-black-grey));
+  }
+  .bg-teal {
+    background-color: rgb(var(--color-teal));
+  }
+  .bg-light-grey {
+    background-color: rgb(var(--color-light-grey));
+  }
+
+  .text-dark-space {
+    color: rgb(var(--color-dark-space));
+  }
+  .text-black-grey {
+    color: rgb(var(--color-black-grey));
+  }
+  .text-teal {
+    color: rgb(var(--color-teal));
+  }
+  .text-light-grey {
+    color: rgb(var(--color-light-grey));
+  }
+
+  .border-dark-space {
+    border-color: rgb(var(--color-dark-space));
+  }
+  .border-black-grey {
+    border-color: rgb(var(--color-black-grey));
+  }
+  .border-teal {
+    border-color: rgb(var(--color-teal));
+  }
+  .border-light-grey {
+    border-color: rgb(var(--color-light-grey));
+  }
+}

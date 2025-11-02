@@ -1,0 +1,65 @@
+{
+  "galleryImages": [
+    "../assets/itw/IMG-20240530-WA0015.jpg",
+    "../assets/itw/IMG-20240530-WA0017.jpg",
+    "../assets/itw/IMG-20240530-WA0014.jpg",
+    "../assets/itw/IMG-20240530-WA0019.jpg"
+  ],
+  "faqs": [
+    {
+      "question": "Is Driver and/or House-Help accommodation available?",
+      "answer": "Driver accommodation depends upon the first come first serve basis. It is available at nominal charges. A small room or bunk bed with dinner and breakfast will be provided just nearby the property."
+    },
+    {
+      "question": "Is parking available onsite or nearby?",
+      "answer": "Free open parking is available onsite adjacent to our Cafe. There is ample car parking for 6-7 cars at the site."
+    },
+    {
+      "question": "Is the property suitable for a day picnic?",
+      "answer": "Yes, the home has a garden/lawn area within the premises that could be used for outdoor picnic activities. Meals will be provided on-site at an additional charge per person, per meal. Please note that the maximum capacity for an overnight stay is 4 people."
+    },
+    {
+      "question": "Is the property pet-friendly?",
+      "answer": "We’re happy to welcome your furry friends at Into the Wild Stays! Please bring a pet bed along, as pets aren’t allowed on guest beds or any linen. Enjoy a comfortable stay for you and your pet in the heart of nature!"
+    }
+  ],
+  "bookingPolicies": [
+    "Check in: 1 PM check out: 11 AM",
+    "Guests are requested to shut the windows and doors during the evening as the property may be prone to insects and bugs.",
+    "Guests are not allowed to spill food or drinks over the upholstery or they will be charged at checkout.",
+    "Please be mindful and keep the noise to a minimum after 10 PM.",
+    "Passport, Aadhar, Driving License, and Govt. ID are accepted as ID proof(s).",
+    "The property allows private parties or events."
+  ],
+  "cancellationPolicy": [
+    "Cancellation 12 days prior to arrival: 15% will be charged.",
+    "Cancellation 7 days prior to arrival: 50% will be charged.",
+    "Cancellation less than a week: Full retention would be applicable.",
+    "Credit/Debit card cancellations will be charged 5% extra.",
+    "Cancellation policy for long weekends and special days: Cancellation 7 days prior to arrival: 50% will be charged.",
+    "Cancellation less than a week: Full retention would be applicable."
+  ],
+  "amenities": [
+    "Essentials",
+    "Towels and toiletries",
+    "Add-on experience",
+    "Private entrance",
+    "Serene location.",
+    "Pet friendly",
+    "In-house chef/caretaker",
+    "Cozy linens",
+    "Bluetooth sound system",
+    "Wi-Fi",
+    "Private cottage",
+    "Garden",
+    "Breakfast"
+  ],
+  "propertyDetails": {
+    "cottages": 4,
+    "guestCapacity": "4 persons per cottage",
+    "maximumCapacity": 24,
+    "pricePerCottage": "₹4000",
+    "locationLink": "https://maps.app.goo.gl/GMdoxWp7mQPrUSF5A",
+    "address": "Into The Wild Stays near Eco Park Dhanolti"
+  }
+}

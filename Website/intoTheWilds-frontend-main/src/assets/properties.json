@@ -1,0 +1,50 @@
+import Image1 from "../assets/homehero.png";
+
+
+[
+  {
+    "hotel": {
+      "img": "../assets/homehero.png",
+      "name": "Rishikesh Riverside Retreat",
+      "description": "A peaceful riverside stay in the heart of Rishikesh, surrounded by nature. Ideal for spiritual seekers and adventure lovers alike.",
+      "location": {
+        "city": "Rishikesh",
+        "state": "Uttarakhand",
+        "country": "India"
+      },
+      "rating": 4.7,
+      "reviews": 30,
+      "price": "₹22000"
+    }
+  },
+  {
+    "hotel": {
+      "img": "../assets/homehero.png",
+      "name": "Mussoorie Hilltop Haven",
+      "description": "Stay in a charming hilltop cottage with breathtaking views of Mussoorie's misty mountains and serene surroundings.",
+      "location": {
+        "city": "Mussoorie",
+        "state": "Uttarakhand",
+        "country": "India"
+      },
+      "rating": 4.6,
+      "reviews": 50,
+      "price": "₹30000"
+    }
+  },
+  {
+    "hotel": {
+      "img": Image1,
+      "name": "Dehradun Valley Escape",
+      "description": "A tranquil retreat located in the lush green valleys of Dehradun, perfect for unwinding and enjoying the scenic beauty.",
+      "location": {
+        "city": "Dehradun",
+        "state": "Uttarakhand",
+        "country": "India"
+      },
+      "rating": 4.8,
+      "reviews": 40,
+      "price": "₹40000"
+    }
+  }
+]

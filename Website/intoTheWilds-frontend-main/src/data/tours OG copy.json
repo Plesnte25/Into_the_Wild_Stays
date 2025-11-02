@@ -1,0 +1,1608 @@
+{
+  "tours": [
+    {
+      "id": 1,
+      "imageUrl": "https://wandersky.in/wp-content/uploads/2023/08/Rishikesh-Tourism-Travel-Guide-2023.jpg",
+      "name": "Spiti Valley",
+      "location": "Spiti Valley, Uttarakhand",
+      "duration": "8 Days, 7 Nights",
+      "price": "9999",
+      "checkInDate": "2024-12-01",
+      "checkOutDate": "2024-12-03",
+      "highlights": [
+        "Set off on an unforgettable adventure through Spiti Valley, a high-altitude desert mountain haven nestled in the Himalayas. Begin your journey in Kaza, the valley’s vibrant heart, where ancient Buddhist monasteries and rich local culture welcome you with open arms.",
+        "Discover the serenity of Key Monastery, perched majestically on a hilltop, and soak in the spiritual aura that defines this remote region.",
+        "Continue your exploration with a visit to the secluded village of Dhankar, home to the ancient Dhankar Monastery. Clinging dramatically to a cliff, this 1,000-year-old fortress offers sweeping views of the Spiti and Pin valleys.",
+        "Finally, uncover the hidden treasure of Tabo, often dubbed the 'Ajanta of the Himalayas' for its ancient Buddhist caves and beautifully preserved monasteries."
+      ],
+      "itinerary": [
+        {
+          "combinedDays": ["https://png.pngtree.com/background/20230805/original/pngtree-view-from-pahalgam-valley-in-kashmir-india-india-kashmir-pahalgam-valley-picture-image_4440140.jpg", 
+          "https://png.pngtree.com/background/20230805/original/pngtree-mountain-in-pahalgam-valley-kashmir-travel-india-resort-photo-picture-image_4440110.jpg"],
+          "days": [
+            {
+              "day": "Day 0 - Departure From Delhi",
+              "description": [
+                "Gather at the Departure Point (Kashmiri Gate/R.K. Ashram Delhi)",
+                "Meet your trip captain at the boarding point for a pre-trip briefing.",
+                "Board the designated transport for the overnight journey to Manali. Depart from Delhi."
+              ],
+              "images": {
+                "img1": "https://png.pngtree.com/background/20230805/original/pngtree-view-from-pahalgam-valley-in-kashmir-india-india-kashmir-pahalgam-valley-picture-image_4440140.jpg",
+                "img2": "https://png.pngtree.com/background/20230805/original/pngtree-a-snowy-mountain-adorned-in-pahalgam-valley-located-in-kashmir-india-picture-image_4440125.jpg",
+                "img3": "https://png.pngtree.com/background/20230805/original/pngtree-mountain-in-pahalgam-valley-kashmir-travel-india-resort-photo-picture-image_4440110.jpg",
+                "img4": "https://png.pngtree.com/background/20230401/original/pngtree-view-from-chitkul-village-in-sangla-valley-vector-picture-image_2229375.jpg"
+              }
+            },
+            {
+              "day": "Day 1 - Reach Manali, Transfer To Jibhi",
+              "description": [
+                "Reach Manali, and stop for the mesmerizing River Beas.",
+                "Day 1 starts from Manali & Transfer to Jibhi.",
+                "Revel in the freedom of the road, exploring Jibhi's hidden gems.",
+                "Local sightseeing of Jibhi - Mini Thailand, Cafe Hopping, Jibhi Waterfall.",
+                "Rest and recharge for the next day."
+              ],
+              "images": {
+                "img1": "https://png.pngtree.com/background/20230805/original/pngtree-view-from-pahalgam-valley-in-kashmir-india-india-kashmir-pahalgam-valley-picture-image_4440140.jpg",
+                "img2": "https://png.pngtree.com/background/20230805/original/pngtree-a-snowy-mountain-adorned-in-pahalgam-valley-located-in-kashmir-india-picture-image_4440125.jpg",
+                "img3": "https://png.pngtree.com/background/20230805/original/pngtree-mountain-in-pahalgam-valley-kashmir-travel-india-resort-photo-picture-image_4440110.jpg",
+                "img4": "https://png.pngtree.com/background/20230401/original/pngtree-view-from-chitkul-village-in-sangla-valley-vector-picture-image_2229375.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "combinedDays": ["https://png.pngtree.com/background/20230805/original/pngtree-view-from-pahalgam-valley-in-kashmir-india-india-kashmir-pahalgam-valley-picture-image_4440140.jpg", 
+          "https://png.pngtree.com/background/20230805/original/pngtree-mountain-in-pahalgam-valley-kashmir-travel-india-resort-photo-picture-image_4440110.jpg"],
+          "days": [
+            {
+              "day": "Day 2 - Move To Chitkul Via Sangla For Stay",
+              "description": [
+                "Depart for Chitkul, a remote and scenic village in the Kinnaur district.",
+                "Traverse the beautiful Sangla Valley en route to Chitkul.",
+                "Immerse in the local culture and admire the unique architecture of the village.",
+                "Enjoy an overnight stay in the peaceful surroundings of Chitkul/Sangla."
+              ],
+              "images": {
+                "img1": "https://png.pngtree.com/background/20230805/original/pngtree-view-from-pahalgam-valley-in-kashmir-india-india-kashmir-pahalgam-valley-picture-image_4440140.jpg",
+                "img2": "https://png.pngtree.com/background/20230805/original/pngtree-a-snowy-mountain-adorned-in-pahalgam-valley-located-in-kashmir-india-picture-image_4440125.jpg",
+                "img3": "https://png.pngtree.com/background/20230805/original/pngtree-mountain-in-pahalgam-valley-kashmir-travel-india-resort-photo-picture-image_4440110.jpg",
+                "img4": "https://png.pngtree.com/background/20230401/original/pngtree-view-from-chitkul-village-in-sangla-valley-vector-picture-image_2229375.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "combinedDays": ["https://png.pngtree.com/background/20230805/original/pngtree-view-from-pahalgam-valley-in-kashmir-india-india-kashmir-pahalgam-valley-picture-image_4440140.jpg", 
+          "https://png.pngtree.com/background/20230805/original/pngtree-mountain-in-pahalgam-valley-kashmir-travel-india-resort-photo-picture-image_4440110.jpg"],
+          "days": [
+            {
+              "day": "Day 3 - Explore Chitkul, Head To Nako Via Khab Sangam & Overnight Stay At Tabo",
+              "description": [
+                "Explore Chitkul, known as the last village near the Indo-China border.",
+                "Head towards Nako, passing through the mesmerizing Khab Sangam.",
+                "Witness the confluence of the Spiti and Sutlej rivers at Khab Visit Gue Monastery on the way, and stay overnight at Tabo."
+              ],
+              "images": {
+                "img1": "https://png.pngtree.com/background/20230805/original/pngtree-view-from-pahalgam-valley-in-kashmir-india-india-kashmir-pahalgam-valley-picture-image_4440140.jpg",
+                "img2": "https://png.pngtree.com/background/20230805/original/pngtree-a-snowy-mountain-adorned-in-pahalgam-valley-located-in-kashmir-india-picture-image_4440125.jpg",
+                "img3": "https://png.pngtree.com/background/20230805/original/pngtree-mountain-in-pahalgam-valley-kashmir-travel-india-resort-photo-picture-image_4440110.jpg",
+                "img4": "https://png.pngtree.com/background/20230401/original/pngtree-view-from-chitkul-village-in-sangla-valley-vector-picture-image_2229375.jpg"
+              }
+            },
+            {
+              "day": "Day 4 - Visit Dhankar & Pin Valley, Overnight In Kaza",
+              "description": [
+                "Visit the historic Tabo Monastery, home to ancient monasteries and cave art.",
+                "Explore Dhankar monastery, perched on a high cliff & experience the Pin Valley.",
+                "Immerse in the local culture and admire the unique architecture of the village.",
+                "Explore Lingti waterfall on the way to Kaza. Settle in for an overnight stay in the lively town of Kaza."
+              ],
+              "images": {
+                "img1": "https://png.pngtree.com/background/20230805/original/pngtree-view-from-pahalgam-valley-in-kashmir-india-india-kashmir-pahalgam-valley-picture-image_4440140.jpg",
+                "img2": "https://png.pngtree.com/background/20230805/original/pngtree-a-snowy-mountain-adorned-in-pahalgam-valley-located-in-kashmir-india-picture-image_4440125.jpg",
+                "img3": "https://png.pngtree.com/background/20230805/original/pngtree-mountain-in-pahalgam-valley-kashmir-travel-india-resort-photo-picture-image_4440110.jpg",
+                "img4": "https://png.pngtree.com/background/20230401/original/pngtree-view-from-chitkul-village-in-sangla-valley-vector-picture-image_2229375.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "combinedDays": ["https://png.pngtree.com/background/20230805/original/pngtree-view-from-pahalgam-valley-in-kashmir-india-india-kashmir-pahalgam-valley-picture-image_4440140.jpg", 
+          "https://png.pngtree.com/background/20230805/original/pngtree-mountain-in-pahalgam-valley-kashmir-travel-india-resort-photo-picture-image_4440110.jpg"],
+          "days": [
+            {
+              "day": "Day 5 - Explore Lingti waterfall on the way to Kaza. Settle in for an overnight stay in the lively town of Kaza.",
+              "description": [
+                "Explore the unique high-altitude villages of Hikkim, Komic, and Langza.",
+                "Visit the iconic Key Monastery, a significant Tibetan Buddhist monastery.",
+                "Immerse in the spiritual and cultural richness of the region.",
+                "Return for an overnight stay in Kaza."
+              ],
+              "images": {
+                "img1": "https://png.pngtree.com/background/20230805/original/pngtree-view-from-pahalgam-valley-in-kashmir-india-india-kashmir-pahalgam-valley-picture-image_4440140.jpg",
+                "img2": "https://png.pngtree.com/background/20230805/original/pngtree-a-snowy-mountain-adorned-in-pahalgam-valley-located-in-kashmir-india-picture-image_4440125.jpg",
+                "img3": "https://png.pngtree.com/background/20230805/original/pngtree-mountain-in-pahalgam-valley-kashmir-travel-india-resort-photo-picture-image_4440110.jpg",
+                "img4": "https://png.pngtree.com/background/20230401/original/pngtree-view-from-chitkul-village-in-sangla-valley-vector-picture-image_2229375.jpg"
+              }
+            },
+            {
+              "day": "Day 6 - Visit Chicham Bridge, Head To Chandratal Via Kunzum Pass & Overnight Stay",
+              "description": [
+                "Explore the engineering marvel of Chicham Bridge, the highest bridge in Asia.",
+                "Journey to the mesmerizing Chandratal Lake via the scenic Kunzum Pass.",
+                "Enjoy the surreal beauty of the high-altitude lake.",
+                "Settle in for an overnight stay, surrounded by the tranquillity of Chandratal."
+              ],
+              "images": {
+                "img1": "https://png.pngtree.com/background/20230805/original/pngtree-view-from-pahalgam-valley-in-kashmir-india-india-kashmir-pahalgam-valley-picture-image_4440140.jpg",
+                "img2": "https://png.pngtree.com/background/20230805/original/pngtree-a-snowy-mountain-adorned-in-pahalgam-valley-located-in-kashmir-india-picture-image_4440125.jpg",
+                "img3": "https://png.pngtree.com/background/20230805/original/pngtree-mountain-in-pahalgam-valley-kashmir-travel-india-resort-photo-picture-image_4440110.jpg",
+                "img4": "https://png.pngtree.com/background/20230401/original/pngtree-view-from-chitkul-village-in-sangla-valley-vector-picture-image_2229375.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "combinedDays": ["https://png.pngtree.com/background/20230805/original/pngtree-view-from-pahalgam-valley-in-kashmir-india-india-kashmir-pahalgam-valley-picture-image_4440140.jpg", 
+          "https://png.pngtree.com/background/20230805/original/pngtree-mountain-in-pahalgam-valley-kashmir-travel-india-resort-photo-picture-image_4440110.jpg"],
+          "days": [
+            {
+              "day": "Day 7 - Transfer To Manali Via Atal Tunnel, Proceed To Delhi Via Volvo",
+              "description": [
+                "Travel back to Manali, passing through the recently inaugurated Atal Tunnel.",
+                "Experience the convenience and thrill of the tunnel journey.",
+                "Transfer to Delhi via a comfortable Volvo transportation.",
+                "Reflect on the memories of the remarkable journey."
+              ],
+              "images": {
+                "img1": "https://png.pngtree.com/background/20230805/original/pngtree-view-from-pahalgam-valley-in-kashmir-india-india-kashmir-pahalgam-valley-picture-image_4440140.jpg",
+                "img2": "https://png.pngtree.com/background/20230805/original/pngtree-a-snowy-mountain-adorned-in-pahalgam-valley-located-in-kashmir-india-picture-image_4440125.jpg",
+                "img3": "https://png.pngtree.com/background/20230805/original/pngtree-mountain-in-pahalgam-valley-kashmir-travel-india-resort-photo-picture-image_4440110.jpg",
+                "img4": "https://png.pngtree.com/background/20230401/original/pngtree-view-from-chitkul-village-in-sangla-valley-vector-picture-image_2229375.jpg"
+              }
+            },
+            {
+              "day": "Day 8 - Arrival In Delhi Between 8:00 To 9:00 AM",
+              "description": [
+                "Arrive in Delhi, concluding the expedition with memories of the breathtaking landscapes and cultural richness of the Himalayan region."
+              ],
+              "images": {
+                "img1": "https://png.pngtree.com/background/20230805/original/pngtree-view-from-pahalgam-valley-in-kashmir-india-india-kashmir-pahalgam-valley-picture-image_4440140.jpg",
+                "img2": "https://png.pngtree.com/background/20230805/original/pngtree-a-snowy-mountain-adorned-in-pahalgam-valley-located-in-kashmir-india-picture-image_4440125.jpg",
+                "img3": "https://png.pngtree.com/background/20230805/original/pngtree-mountain-in-pahalgam-valley-kashmir-travel-india-resort-photo-picture-image_4440110.jpg",
+                "img4": "https://png.pngtree.com/background/20230401/original/pngtree-view-from-chitkul-village-in-sangla-valley-vector-picture-image_2229375.jpg"
+              }
+            }
+          ]
+        }
+      ],
+      "inclusions": [
+        "Accommodation in riverside camps.",
+        "Daily breakfast and dinner.",
+        "Professional guide for all activities.",
+        "Complimentary evening bonfire."
+      ],
+      "exclusions": [
+        "Transportation to and from Rishikesh.",
+        "Lunch during the trip.",
+        "Personal expenses.",
+        "Any adventure activity not mentioned in inclusions."
+      ],
+      "important_notes": [
+        "Participants must be 12 years or older for river rafting.",
+        "Please carry a valid ID for check-in.",
+        "Booking is non-refundable 48 hours prior to the trip."
+      ],
+      "contact_methods": {
+        "phone": "+91-9761966485",
+        "email": "intothewildstays@gmail.com",
+        "whatsapp": "+91-9958838557"
+      },
+      "rules_and_policy": [
+        "Smoking and drinking alcohol are strictly prohibited during activities.",
+        "Participants are responsible for their personal belongings.",
+        "In case of adverse weather conditions, activities may be rescheduled."
+      ]
+    }
+,    
+    {
+      "id": 2,
+      "imageUrl": "https://static.toiimg.com/photo/msid-80611280,width-96,height-65.cms",
+      "name": "Mussoorie Nature Escape",
+      "location": "Mussoorie, Uttarakhand",
+      "duration": "4 Days, 3 Nights",
+      "price": "12499",
+      "checkInDate": "2024-12-01",
+      "checkOutDate": "2024-12-04",
+      "highlights": [
+        "Mussoorie, the queen of hill stations, is famous for its scenic beauty, good social life and entertainment. ",
+        "The excellent climate makes it an attractive holiday resort. Thronged by holidayers, it vibrates with gaiety and merry making during the summer season.",
+        "Lal Tibba - The highest peak in Mussoorie, at 2,275 meters. The peak's name comes from the red glow it takes on at dusk. It offers panoramic views of the snow-capped Himalayas and Doon Valley",
+        "Gun Hill - Mussoorie's second highest peak, and a popular viewpoint. It offers 360-degree views of the town, Doon Valley, and the Himalayan ranges.",
+        "Kempty Falls - A major waterfall surrounded by mountain cliffs. The water from the falls drops 41 feet into a small pond where visitors can swim and bathe. "
+      ],
+      "itinerary": [
+        {
+          "day": "Day 1",
+          "description": ["Arrival, check-in, and exploring Mall Road."],
+          "images": {
+            "img1": "https://images.pexels.com/photos/2070307/pexels-photo-2070307.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "img2": "https://images.pexels.com/photos/15896015/pexels-photo-15896015/free-photo-of-laxmanjhula-ramjhula-rishikesh-uttarakhand.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          }
+        },
+        {
+          "day": "Day 2",
+          "description": [" Visit to Kempty Falls and Gun Hill."],
+          "images": {
+            "img1": "https://images.pexels.com/photos/2214386/pexels-photo-2214386.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "img2": "https://images.pexels.com/photos/30139893/pexels-photo-30139893/free-photo-of-charming-mountain-village-in-spring-landscape.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          }
+        },
+        {
+          "day": "Day 3",
+          "description": ["Trek to Lal Tibba and Camel's Back Road."],
+          "images": {
+            "img1": "https://images.pexels.com/photos/14504178/pexels-photo-14504178.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "img2": "https://images.pexels.com/photos/7750616/pexels-photo-7750616.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          }
+        },
+        {
+          "day": "Day 4",
+          "description": ["Leisure day and departure."],
+          "images": {
+            "img1": "https://images.pexels.com/photos/9745701/pexels-photo-9745701.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "img2": "https://images.pexels.com/photos/11710908/pexels-photo-11710908.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          }
+        }
+      ],
+      "inclusions": [
+        "Stay in a 3-star hotel with hill view rooms.",
+        "Daily breakfast and dinner.",
+        "Local sightseeing with a private cab.",
+        "Guided trek to Lal Tibba."
+      ],
+      "exclusions": [
+        "Travel to and from Mussoorie.",
+        "Lunch during the trip.",
+        "Entry tickets to attractions.",
+        "Tips and gratuities."
+      ],
+      "important_notes": [
+        "Check-in time is 12:00 PM, and check-out time is 11:00 AM.",
+        "Pets are not allowed in the accommodations.",
+        "Booking modifications are subject to availability."
+      ],
+      "contact_methods": {
+        "phone": "+91-9761966485",
+        "email": "intothewildstays@gmail.com",
+        "whatsapp": "+91-9958838557"
+      },
+      "rules_and_policy": [
+        "Maintain decorum at tourist spots and accommodations.",
+        "Follow the guide's instructions during treks and activities.",
+        "Cancellations made within 72 hours of the trip are non-refundable."
+      ]
+    },
+    {
+      "id": 3,
+      "imageUrl": "https://images.pexels.com/photos/15031440/pexels-photo-15031440.jpeg?cs=srgb&dl=pexels-alok-kumar-273007-15031440.jpg&fm=jpg",
+      "name": "Kedarnath Dham",
+      "location": "Kedarnath, Uttarakhand",
+      "duration": "4 Days, 3 Nights",
+      "price": "10499",
+      "checkInDate": "2024-12-01",
+      "checkOutDate": "2024-12-04",
+      "highlights": [
+        "Nestled amidst the majestic Himalayn ranges, Kedarnath is a sacred pilgrimage site located in the Rudraprayag district of Uttarakhand, India. Renowned for its spiritual significance and breathtaking natural beauty, Kedarnath attracts millions of devotees and nature enthusiasts each year.",
+        "Kedarnath holds a rich historical and mythological heritage. According to Hindu mythology, it is believed to be one of the twelve Jyotirlingas (radiant lingas) of Lord Shiva, representing his infinite power and energy.",
+        "The temple of Kedarnath is believed to have been built by the Pandavas, the legendary heroes of the Indian epic, Mahabharata. The temple’s architecture is a marvel in itself, reflecting ancient craftsmanship and devotion.",
+        "TREK TO KEDARNATH - A moderate 17kms trek from Gaurikund to Kedarnath is a beautiful trek along with mandankini river and valleys.",
+        "DEVPRAYAG - Is a final one of the panch prayag (five confluences) of Alaknanda River where Alaknanda meets the Bhagirathi river and both rivers thereafter flow on as the Ganges river or Maa Ganga."
+      ],
+      "itinerary": [
+        {
+          "day": "Day 1 - Delhi to Rishikesh - Overnight Journey",
+          "description": [
+            "The group will assemble at the pickup point.",
+            "Afterward, you’ll be introduced with the team captains and the whole group.",
+            "We’ll start for a overnight journey towards Rishikesh.",
+            "We’ll take a midway stoppage for dinner.",
+            "Pickup point is Noida, sector 62, metro station."
+          ],
+          "images": {
+            "img1": "https://images.pexels.com/photos/257092/pexels-photo-257092.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "img2": "https://images.pexels.com/photos/5205768/pexels-photo-5205768.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "img3": "https://images.pexels.com/photos/15495250/pexels-photo-15495250/free-photo-of-man-talking-to-a-group-of-people.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "img4": "https://images.pexels.com/photos/14064751/pexels-photo-14064751.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          }
+        },
+        {
+          "day": "Day 2 - Rishikesh to Sonprayag",
+          "description": [
+            "Reach Rishikesh early morning.",
+            "A small halt for tea break near shuivpuri.",
+            "Pit stop ta Devprayag for breakfast.",
+            "Reach Sonprayag in the evening.",
+            "Room allotments will be done.",
+            "Dinner will be served at hotel."
+          ],
+          "images": {
+            "img1": "https://images.unsplash.com/photo-1656501097897-7dcec86f61eb?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "img2": "https://images.unsplash.com/photo-1606722581293-628fa217a6f7?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "img3": "https://images.unsplash.com/photo-1657215756064-a1cec8616e80?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "img4": "https://images.unsplash.com/photo-1676182259623-a5f4c8d0a8a4?q=80&w=868&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          }
+        },
+
+        {
+          "day": "Day 3 - Sonprayag to Kedarnath",
+          "description": [
+            "Start early, for Kedarnath trek.",
+            "Breakfast will be served at Gaurikund.",
+            "After that, head out for Kedarnath Trek.",
+            "Trek distance is 17kms, reach Kedarnath by evening.",
+            "Dinner will be served at hotel."
+          ],
+          "images": {
+            "img1": "https://images.pexels.com/photos/15031440/pexels-photo-15031440/free-photo-of-a-crowd-standing-in-front-of-the-kedarnath-temple-in-kedarnath-india-during-a-ceremony.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "img2": "https://images.pexels.com/photos/16152405/pexels-photo-16152405/free-photo-of-crowds-of-people-by-a-mountain-temple.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "img3": "https://images.pexels.com/photos/19010047/pexels-photo-19010047/free-photo-of-crowd-walking-on-street-with-tents-around-in-village-in-mountains.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "img4": "https://images.unsplash.com/photo-1724733613256-a1ed7936bb70?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          }
+        },
+        {
+          "day": "Day 4 - Kedarnath to Guptkashi/Sonprayag",
+          "description": [
+            "Start early, for Kedarnath Darshan.",
+            "After darshan, breakfast will be served at choti lincholi.",
+            "After that, head out for trek down to Gaurikund.",
+            "Trek distance is 17kms, reach Sonprayag hotel.",
+            "Dinner and overnight stay at hotel."
+          ],
+          "images": {
+            "img1": "https://www.holidify.com/images/bgImages/GUPTAKASHI.jpg",
+            "img2": "https://media.holidify.com/images/cmsuploads/compressed/1024px-Chaukhamba_peak2C_Garhwal_Himalayas2C_Uttarakhand_20241204011508.jpg",
+            "img3": "https://www.holidify.com/images/compressed/3951.jpg?v=1.1",
+            "img4": "https://www.holidify.com/images/compressed/dest_wiki_5438.jpg"
+          }
+        },
+        {
+          "day": "Day 5 - Sonprayag to Delhi Via Rishikesh",
+          "description": [
+            "On the last day of trip start your journey with comfortable morning.",
+            "Wake up and have your breakfast.",
+            "Board your vehicle and start your long day journey to Delhi via Rishikesh.",
+            "You will reach Delhi by 9:30pm to 10:30pm.",
+            "Trip ends with lots of happy memories."
+          ],
+          "images": {
+            "img1": "https://images.pexels.com/photos/6776755/pexels-photo-6776755.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "img2": "https://images.pexels.com/photos/29547317/pexels-photo-29547317/free-photo-of-aerial-view-of-delhi-s-bustling-expressway.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          }
+        }
+      ],
+      "inclusions": [
+        "3-night stay in hotel/homestay/campsite.",
+        "6 meals (Day 1 - dinner; Day 2,3 - Breakfast + Dinner; Day 4 - Breakfast).",
+        "Stay on Triple/Quad sharing basis.",
+        "Trip Leader.",
+        "Transportation Delhi to Delhi by Tempo Traveler/Ertigo/Innova.",
+        "Driver allowances, toll taxes, parking charges."
+      ],
+      "exclusions": [
+        "5% GST.",
+        "Additional expenses due to travel delays.",
+        "Hot water bucket at Kedarnath (₹150/bucket).",
+        "Horse, pony, palki charges."
+      ],
+      "important_notes": [
+        "Bookings are confirmed with a deposit of ₹5,000 per person.",
+        "Remaining amount must be paid 7 days before the trip.",
+        "Trek difficulty level: Moderate. Ensure physical fitness.",
+        "Carry valid ID for check-ins and permissions.",
+        "Kedarnath trek covers approximately 17 km; proper trekking gear is recommended."
+      ],
+      "contact_methods": {
+        "phone": "+91-9761966485",
+        "email": "intothewildstays@gmail.com",
+        "whatsapp": "+91-9958838557"
+      },
+      "rules_and_policy": [
+        "Smoking and drinking alcohol are prohibited during the trip.",
+        "Participants must follow team leader instructions.",
+        "No refund is available for cancellations within 7 days of the trip.",
+        "In case of bad weather, trip modifications will be made as per safety."
+      ]
+    },
+    {
+      "id": 4,
+      "imageUrl": "https://www.thesearchingsouls.com/wp-content/uploads/2022/03/kuari-pass-trek-2.jpg",
+      "name": "Kuari Pass Trek (Lord Curzon Trail)",
+      "location": "Joshimath, Uttarakhand",
+      "duration": "6 Days, 5 Nights",
+      "price": "9499",
+      "checkInDate": "2024-12-01",
+      "checkOutDate": "2024-12-06",
+      "highlights": [
+        "Welcome to Joshimath, an important pilgrimage destination in Uttarakhand. From here, your exciting trek to Kuari Pass will commence.",
+        "Nestled between the Karakoram and Zanskar mountain ranges, Ladakh offers breathtaking views of snow-capped peaks, pristine lakes, and vast, arid deserts."
+      ],
+      "itinerary": [
+        {
+          "day": "Day 1 - Rishikesh to Karchi via Joshimath",
+          "title": "",
+          "drive": "275 kms",
+          "time": "10-12 Hours",
+          "description": [
+            "Welcome to Joshimath, an important pilgrimage destination in Uttarakhand.",
+            "From here, your exciting trek to Kuari Pass will commence. Joshimath is a last big town in Chamoli district, you can avail cash from ATM from Joshimath, later we head to karchi village!",
+            "Check into your homestay at Karchi and spend the day exploring the village at your own pace."
+          ],
+          "images": {
+            "img1": "https://img.freepik.com/free-photo/forested-mountain-covered-snow-people-hiking-col-de-la-lombarde_181624-23191.jpg?t=st=1736412107~exp=1736415707~hmac=bdde8d4637d0eb6c70b0fd165d5de5ba2f97a28043f81983186a62639e0725fb&w=900",
+            "img2": "https://img.freepik.com/free-photo/snowy-rugged-white-mountains-with-hiking-travelers_181624-6293.jpg?t=st=1736412284~exp=1736415884~hmac=605a49679fa5728d8a5cddd7ea2690dd6c0dbba104ff9e99d62a7a8a231c597e&w=900",
+            "img3": "https://img.freepik.com/free-photo/beautiful-shot-hiker-with-red-travel-backpack-hiking-up-mountain-blue-sky_181624-23123.jpg?t=st=1736412304~exp=1736415904~hmac=ea5ee510f577a0dcb20190d0ef9aeb5f9e9d3b7c90ce9fa9e7a1e5cf637784bd&w=900",
+            "img4": "https://img.freepik.com/free-photo/horizontal-shot-group-people-hiking-mountains-covered-snow-cloudy-sky_181624-44954.jpg?t=st=1736412323~exp=1736415923~hmac=ca7b987a0d78e0e8c17f962958835e3a6ef98ae47ecdbc505c51e81c1bdb3310&w=900"
+          }
+        },
+        {
+          "day": "Day 2 - Karchi to Gulling Top via Tugasi",
+          "title": "",
+          "trek_distance": "4 km",
+          "duration": "5-6 Hours",
+          "elevation": "9600 ft",
+          "description": [
+            "Start your trek from Karchi, passing through Tugasi village with views of the Dhauladhar Range.",
+            "After checking out from your homestay, receive a briefing about the trail and set out on your first leg of the trek.",
+            "Traverse the delightful TUGASI village, where you'll experience traditional architecture and local culture against the stunning backdrop of the Dhauladhar Range and other peaks.",
+            "Once you reach Gulling Top, Camp overnight at Gulling Top."
+          ],
+          "images": {
+            "img1": "https://img.freepik.com/free-photo/young-girl-with-sticks-forest_23-2147770432.jpg?t=st=1736412420~exp=1736416020~hmac=b59f0632e3dc1fea8029131aa6e82049667441e7eee3082b254cf23170b0da99&w=740",
+            "img2": "https://img.freepik.com/free-photo/people-holding-hands-as-sign-peace-with-mountains-background-winter_181624-30476.jpg?t=st=1736412480~exp=1736416080~hmac=4999d673f5cd567f60d5cb67320edfb3cf595d204ef27a28bb89f4e1d356df20&w=900",
+            "img3": "https://img.freepik.com/free-photo/snowy-road-south-tyrol-dolomites-italy_181624-36190.jpg?t=st=1736412502~exp=1736416102~hmac=6a92fe7625bc5e682407fcbef19476842562a69ec5b16c70528c41307e94df85&w=900",
+            "img4": "https://img.freepik.com/free-photo/shot-mountain-covered-snow-people-hiking-col-de-la-lombarde-isola-2000-france_181624-18113.jpg?t=st=1736412525~exp=1736416125~hmac=2b5cee8e3f13f345ba731dfb869f796b6096485030a245f7f0f37b084e2a7e37&w=900"
+          }
+        },
+        {
+          "day": "Day 3 - Gulling Top to Khullara Top",
+          "title": "",
+          "trek_distance": "6 km",
+          "duration": "6 Hours",
+          "elevation": "11,075 ft",
+          "description": [
+            "At dawn, prepare to embark on the next leg of your journey. The path gently climbs through lush oak, rhododendron, and walnut forests, accompanied by the soothing sound of flowing streams.",
+            "Along the way, enjoy panoramic vistas of the Pir Panjal Range, Shivalik Range, and other majestic Himalayan peaks.",
+            "When you arrive at the picturesque Khullara Top",
+            "Take a moment to appreciate the serene mountain atmosphere before setting up camp for a restful overnight stay."
+          ],
+          "images": {
+            "img1": "https://img.freepik.com/free-photo/man-skiing-mountains-covered-with-snow-daytime_181624-4596.jpg?t=st=1736412547~exp=1736416147~hmac=9ce70ffb90487964a87f9ec2e4d1e26fd58ad0e3c3abca17a7d41d2f2438b177&w=900",
+            "img2": "https://img.freepik.com/free-photo/young-hipster-man-hiking-mountains-winter-vacation-traveling_285396-1956.jpg?t=st=1736412548~exp=1736416148~hmac=0c551ee40e81fa42176fde601fa3fe0fb1de8a5e96d299da002b498e44f481a4&w=900",
+            "img3": "https://img.freepik.com/free-photo/male-hiker-taking-photos-winter-alpine-mountain-snow-covered-hut_181624-23001.jpg?t=st=1736412574~exp=1736416174~hmac=03f165b049c5909f50e79e126ee51210a37d5e8964d89c490f178385e3d7c3d9&w=900",
+            "img4": "https://img.freepik.com/free-photo/group-people-hiking-mountains-covered-snow-beautiful-blue-sky_181624-4737.jpg?t=st=1736412578~exp=1736416178~hmac=5d18a5de0c96ba533883e6c9307ecd6e5e8aa85d0bb1c39e6687a4fefe65bf39&w=900"
+          }
+        },
+        {
+          "day": "Day 4 - Trek from Khullara Top to Kuari Pass and Descend",
+          "title": "",
+          "trek_distance": "12 km",
+          "duration": "8-10 Hours",
+          "elevation": "12,516 ft",
+          "description": [
+            "Put on your hiking boots and set off on an exhilarating journey to Kuari Pass. Start by tracing the path that reveals stunning vistas of the Himalayan giants, including Nanda Devi, Kamet, and Trishul.",
+            "The ascent is steep, so be mindful of your footing and remember to stay hydrated.",
+            "Upon reaching the summit, take in the awe-inspiring panoramic views, featuring Dronagiri, Chitrakantha, and other majestic peaks.",
+            "Afterward, make your way down to Khullara Top to set up camp and enjoy a restful overnight stay."
+          ],
+          "images": {
+            "img1": "https://img.freepik.com/free-photo/beautiful-shot-man-hiking-snowy-carpathian-mountains-romania_181624-15121.jpg?t=st=1736412584~exp=1736416184~hmac=ea944edff1d271a597fdb4c74b7e50942d8c0e8c3c7a6b51db6016da06628493&w=900",
+            "img2": "https://img.freepik.com/free-photo/way-alone-snow-camping-journey_1253-687.jpg?t=st=1736412623~exp=1736416223~hmac=bd7a8bf458c1a0eaf839c46bfd6241f667a855b667da2f3a8b1a11ee44e577b9&w=900",
+            "img3": "https://img.freepik.com/free-photo/climbers-top-snowy-mountain_155999-15.jpg?t=st=1736412632~exp=1736416232~hmac=f366ff0d48841e386d079e6401ab7cbcb9d1daf66f870d2e5a07f7c3f6184ef7&w=900",
+            "img4": "https://img.freepik.com/free-photo/way-fall-walk-active-guy_1253-689.jpg?t=st=1736412634~exp=1736416234~hmac=4436e0be81ba0d03d89a68cdfea3872533c4c7b76f66b94df1d8640cf01f6ac0&w=900"
+          }
+        },
+        {
+          "day": "Day 5 - Downhill Trek from Khullara Top to Karchi",
+          "title": "",
+          "trek_distance": "11 km",
+          "duration": "8-10 Hours",
+          "elevation": "6,716 ft",
+          "description": [
+            "Start your final day with the awe-inspiring sunrise over the Himalayas, and prepare yourself for an exhilarating downhill trek.",
+            "Enjoy a hearty breakfast to energize yourself for the journey ahead.",
+            "As you descend towards karchi Village, you'll traverse through lush Alpine and Mossy Oak forests.",
+            "Once you arrive in the picturesque karchi Village,Upon arrival, settle into your homestay and unwind after a day of adventure."
+          ],
+          "images": {
+            "img1": "https://img.freepik.com/free-photo/group-sled-dogs-skagway-alaska_181624-45005.jpg?t=st=1736412677~exp=1736416277~hmac=f0d0ca7dd511ba2fe2dc2da63c4ef78daa00f6e885412c9a54421d22b696f313&w=900",
+            "img2": "https://img.freepik.com/free-photo/hiker-with-backpack-is-climbing-mountain-range-admires-snow-capped-peak-epic-adventure-winter-wilderness_146671-15231.jpg?t=st=1736412690~exp=1736416290~hmac=e58996d2467b1905549ee08b5e191ed9b39713fd4d4d7974928f945046fece33&w=900",
+            "img3": "https://img.freepik.com/free-photo/back-experienced-friendly-hikers-with-bright-ski-costumes-colorful-hats_1268-19845.jpg?t=st=1736412695~exp=1736416295~hmac=9b39ee78dccc65de1b832dbfa9bcc86f2d960dfa92aeec9a77cdeeb9afc64ecd&w=900",
+            "img4": "https://img.freepik.com/free-photo/groups-hiking-tourists-trekking-snowy-white-rugged-mountains_181624-5950.jpg?t=st=1736412707~exp=1736416307~hmac=c373b8114dd93699ba60d5808fca87de551194fe5c57c89e39a463b74a7c2598&w=900"
+          }
+        },
+        {
+          "day": "Day 6 - Trek Down to Karchi from Khullara Top",
+          "title": "",
+          "description": [
+            "Begin your day with a stunning sunrise over the Himalayas, and prepare for an exciting final day of downhill trekking.",
+            "Enjoy a hearty breakfast before starting your descent towards karchi Village.",
+            "Along the way, you'll traverse through lush Alpine and Mossy oak forests before arriving at the picturesque Karchi Village.",
+            "Check into your homestay and unwind after the day's adventures."
+          ],
+          "images": {
+            "img1": "https://img.freepik.com/free-photo/valee-blanche-mont-blanc_181624-27220.jpg?t=st=1736412759~exp=1736416359~hmac=68ec9a2b01ca29dc96be15471236dda5f9f56fbe072db3d34fce65bf7e85c4ac&w=900",
+            "img2": "https://img.freepik.com/free-photo/person-snowy-valley-mountains_23-2147803939.jpg?t=st=1736412760~exp=1736416360~hmac=ad2b3ff208701a43e4ddd426e9f5d5eb046568c7dc9c84ed930e4b1334d8017d&w=900",
+            "img3": "https://img.freepik.com/free-photo/ski-resort-winter-tourism-mountains_114579-12104.jpg?t=st=1736412773~exp=1736416373~hmac=4263526a1f25cc545cec8160571c18c1c5c077c54c371570088ba34dc9fc7a11&w=900",
+            "img4": "https://img.freepik.com/free-photo/person-doing-yoga-cold-wintry-weather_23-2150163281.jpg?t=st=1736412793~exp=1736416393~hmac=78bca16534d9392ab6c8959d754c8c1b2674d409acb33ced3269d0ae000a5f6e&w=900"
+          }
+        }
+      ],
+      "inclusions": [
+        "3 Nights of tented accommodation on twin sharing and 2 nights in a guest house at Karchi on multi-sharing.",
+        "Vegetarian meals during the trek from Dinner on Day 1 to tea and coffee on Day 6.",
+        "Transport (optional): Rishikesh to Karchi and return for an additional 1600 INR.",
+        "Trek equipment: Sleeping bag, tents, kitchen tent, dining tent, toilet tent.",
+        "Amenities: All utensils, sleeping mattresses, crampons, gaiters for snow.",
+        "Health & Safety: First aid kit, oxygen cylinders, stretchers, oxi-meters, BP machines.",
+        "Permits: Forest permits and camping permission fee.",
+        "Trek crew: High-altitude chef, helpers, trek leader, guides, and support team.",
+        "Porters and mules for trekking equipment, ration, and supplies."
+      ],
+      "exclusions": [
+        "GST 5% (mandatory).",
+        "Meals/accommodation outside of the itinerary.",
+        "Bus/airfare to/from trek start/end point.",
+        "Personal medical expenses and personal services (e.g., laundry, phone calls, liquor, mineral water).",
+        "Camera fees for still/video.",
+        "Monument/entrance fees (if any).",
+        "Offload charges for private baggage: 400 INR per day if paid online, or 2200 INR at base camp (maximum bag weight: 10kg).",
+        "Emergency evacuation charges.",
+        "Any additional services not mentioned in inclusions."
+      ],
+      "important_notes": [
+        "Participants must carry a valid ID for check-in.",
+        "Trek is moderate to challenging and requires basic fitness levels.",
+        "Bookings are non-refundable within 7 days of the trek start date.",
+        "Weather conditions may lead to itinerary modifications."
+      ],
+      "contact_methods": {
+        "phone": "+91-9761966485",
+        "email": "intothewildstays@gmail.com",
+        "whatsapp": "+91-9958838557"
+      },
+      "rules_and_policy": [
+        "Participants must adhere to the guide's instructions during the trek.",
+        "Smoking and alcohol consumption are strictly prohibited during the trek.",
+        "Participants are responsible for their personal belongings.",
+        "In case of emergencies, additional charges for evacuation apply."
+      ]
+    },
+    {
+      "id": 5,
+      "imageUrl": "https://rishikeshdaytour.com/blog/wp-content/uploads/2021/12/Kanatal-An-Unexplored-Hamlet-in-Uttarakhand-.jpg",
+      "name": "Rishikesh - Dhanolti",
+      "location": "Rishikesh and Dhanolti, Uttarakhand",
+      "duration": "2 Nights, 3 Days",
+      "price": "3500",
+      "checkInDate": "2024-12-01",
+      "checkOutDate": "2024-12-03",
+      "highlights": [
+        "Rishikesh is a city in India’s northern state of Uttarakhand, in the Himalayan foothills beside the Ganges River. The river is considered holy, and the city is renowned as a center for studying yoga and meditation.",
+        "Temples and ashrams (centers for spiritual studies) line the eastern bank around Swarg Ashram, a traffic-free, alcohol-free and vegetarian enclave upstream from Rishikesh town."
+      ],
+      "itinerary": [
+        {
+          "day": "Day 1 - Rishikesh",
+          "description": [
+            "Stay in Swiss Camps (Quad sharing) with attached washroom and cooler.",
+            "Activities: 16 km rafting at Shivpuri.",
+            "Meals: Breakfast (Aloo puri, Aloo paratha, Tea), Lunch (Jeera aalu, Daal tadka, Rice, Chapati), Dinner (Shahee paneer, Chicken curry, Daal tadka, Rice, Chapati), and Evening snack (Mix Pakoda with tea)."
+          ],
+          "images": {
+            "img1": "https://img.freepik.com/free-photo/forested-mountain-covered-snow-people-hiking-col-de-la-lombarde_181624-23191.jpg?t=st=1736412107~exp=1736415707~hmac=bdde8d4637d0eb6c70b0fd165d5de5ba2f97a28043f81983186a62639e0725fb&w=900",
+            "img2": "https://img.freepik.com/free-photo/snowy-rugged-white-mountains-with-hiking-travelers_181624-6293.jpg?t=st=1736412284~exp=1736415884~hmac=605a49679fa5728d8a5cddd7ea2690dd6c0dbba104ff9e99d62a7a8a231c597e&w=900",
+            "img3": "https://img.freepik.com/free-photo/beautiful-shot-hiker-with-red-travel-backpack-hiking-up-mountain-blue-sky_181624-23123.jpg?t=st=1736412304~exp=1736415904~hmac=ea5ee510f577a0dcb20190d0ef9aeb5f9e9d3b7c90ce9fa9e7a1e5cf637784bd&w=900",
+            "img4": "https://img.freepik.com/free-photo/horizontal-shot-group-people-hiking-mountains-covered-snow-cloudy-sky_181624-44954.jpg?t=st=1736412323~exp=1736415923~hmac=ca7b987a0d78e0e8c17f962958835e3a6ef98ae47ecdbc505c51e81c1bdb3310&w=900"
+          }
+        },
+        {
+          "day": "Day 2 - Rishikesh to Dhanolti",
+          "description": [
+            "Stay in Luxury Cottages (Quad sharing).",
+            "Sightseeing: Visit Surkanda Devi Temple, the highest point in the Dhanolti-Kanatal region.",
+            "Meals: Breakfast (Aloo puri, Aloo paratha, Bread toast, Tea & coffee), Lunch (Jeera aalu, Daal tadka, Raita, Rice, Chapati), Dinner (Kadhai paneer, Shahee paneer, Chicken curry, Daal tadka, Rice, Chapati), and Evening snack (Mix Pakoda with tea)."
+          ],
+          "images": {
+            "img1": "https://images.pexels.com/photos/877263/pexels-photo-877263.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "img2": "https://img.freepik.com/free-photo/snowy-rugged-white-mountains-with-hiking-travelers_181624-6293.jpg?t=st=1736412284~exp=1736415884~hmac=605a49679fa5728d8a5cddd7ea2690dd6c0dbba104ff9e99d62a7a8a231c597e&w=900",
+            "img3": "https://img.freepik.com/free-photo/beautiful-shot-hiker-with-red-travel-backpack-hiking-up-mountain-blue-sky_181624-23123.jpg?t=st=1736412304~exp=1736415904~hmac=ea5ee510f577a0dcb20190d0ef9aeb5f9e9d3b7c90ce9fa9e7a1e5cf637784bd&w=900",
+            "img4": "https://img.freepik.com/free-photo/horizontal-shot-group-people-hiking-mountains-covered-snow-cloudy-sky_181624-44954.jpg?t=st=1736412323~exp=1736415923~hmac=ca7b987a0d78e0e8c17f962958835e3a6ef98ae47ecdbc505c51e81c1bdb3310&w=900"
+          }
+        },
+        {
+          "day": "Day 3 - Dhanolti to Mussoorie",
+          "description": [
+            "Music allowed until 10 PM due to reserve forest proximity.",
+            "Surkanda Devi:- Highest tample of Mussoorie region",
+            "Mussorie:- Landour Street/ Landour Bakery / Chardukan/ Kampty Fall"
+          ],
+          "images": {
+            "img1": "https://images.pexels.com/photos/2070307/pexels-photo-2070307.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "img2": "https://images.pexels.com/photos/15896015/pexels-photo-15896015/free-photo-of-laxmanjhula-ramjhula-rishikesh-uttarakhand.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          }
+        },
+        {
+          "day": "Day 4 - Dhanolti to Dehradun (Checkout)",
+          "description": [
+            "Music allowed until 10 PM due to reserve forest proximity.",
+            "Sightseeing:- Robert's Cave, Tapkeshwar Temple",
+            "Check-out and departure."
+          ],
+          "images": {
+            "img1": "https://images.pexels.com/photos/954646/pexels-photo-954646.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "img2": "https://images.pexels.com/photos/11124347/pexels-photo-11124347.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          }
+        }
+      ],
+      "inclusions": [
+        "Stay in Swiss Camps and Luxury Cottages with quad sharing.",
+        "Meals: Daily breakfast, lunch, dinner, and evening snacks.",
+        "Rafting in Rishikesh (16 km).",
+        "Sightseeing: Surkanda Devi Temple."
+      ],
+      "exclusions": [
+        "Transportation to and from Rishikesh.",
+        "Non-vegetarian meals available at an additional charge.",
+        "GST not included in the price.",
+        "Any personal expenses or activities not mentioned in inclusions."
+      ],
+      "important_notes": [
+        "Music is strictly prohibited after 10 PM near reserve forest.",
+        "Heater available at ₹299 per day.",
+        "Carry a valid ID for check-in.",
+        "Non-vegetarian meals can be added at extra cost."
+      ],
+      "contact_methods": {
+        "phone": "+91-9761966485",
+        "email": "intothewildstays@gmail.com",
+        "whatsapp": "+91-9958838557"
+      },
+      "rules_and_policy": [
+        "Music allowed only until 10 PM due to reserve forest proximity.",
+        "Property damage will be charged as per the current rate.",
+        "All prices exclude GST.",
+        "Booking modifications are subject to availability."
+      ]
+    },
+    {
+      "id": 6,
+      "imageUrl": "https://blog.moustachescapes.com/wp-content/uploads/2024/01/629f3b6b4d577_1654602603.jpg",
+      "name": "Four Treks in One Trip: Valley of Flowers",
+      "location": "Chamoli, Uttarakhand",
+      "duration": "6 Days, 5 Nights",
+      "price": "7500",
+      "checkInDate": "2024-12-01",
+      "checkOutDate": "2024-12-06",
+      "highlights": [
+        "Discovered back in the year 1931 by three British Mountaineers R.L.Holdsworth, Frank S.Smythe and Eric Shipton, this beautiful valley has also been declared as a World Heritage Site by UNESCO, owing to its incredibly mesmerizing blooms encircled by mighty icy peaks.",
+        "Trek to Hemkunt sahib- The highest Gurudwara in the world.",
+        "Trek to the valley of flowers- Explore the depths of the UNESCO world heritage site.",
+        "Witness over 600 different species of alpine flowers during the valley of flowers trek.",
+        "Rudraprayag, Karnaprayag, Nandprayag, Vishnuprayag). One Stop Travel Solution: Pickup and Drop from Delhi."
+      ],
+      "itinerary": [
+        {
+          "day": "Day 1 - Rishikesh to Joshimath (Drive 290kms)",
+          "description": [
+            "Pit stop at Devprayag, (Confluence of Ganga River).",
+            "Later reach Joshimath via Rudraprayag.",
+            "Joshimath (Dinner will be served at hotel premises).",
+            "Meet at rishikesh bus stop",
+            "Assemble and briefing about travel details."
+          ],
+          "images": {
+            "img1": "https://img.freepik.com/free-photo/forested-mountain-covered-snow-people-hiking-col-de-la-lombarde_181624-23191.jpg?t=st=1736412107~exp=1736415707~hmac=bdde8d4637d0eb6c70b0fd165d5de5ba2f97a28043f81983186a62639e0725fb&w=900",
+            "img2": "https://img.freepik.com/free-photo/snowy-rugged-white-mountains-with-hiking-travelers_181624-6293.jpg?t=st=1736412284~exp=1736415884~hmac=605a49679fa5728d8a5cddd7ea2690dd6c0dbba104ff9e99d62a7a8a231c597e&w=900",
+            "img3": "https://img.freepik.com/free-photo/beautiful-shot-hiker-with-red-travel-backpack-hiking-up-mountain-blue-sky_181624-23123.jpg?t=st=1736412304~exp=1736415904~hmac=ea5ee510f577a0dcb20190d0ef9aeb5f9e9d3b7c90ce9fa9e7a1e5cf637784bd&w=900",
+            "img4": "https://img.freepik.com/free-photo/horizontal-shot-group-people-hiking-mountains-covered-snow-cloudy-sky_181624-44954.jpg?t=st=1736412323~exp=1736415923~hmac=ca7b987a0d78e0e8c17f962958835e3a6ef98ae47ecdbc505c51e81c1bdb3310&w=900"
+          }
+        },
+        {
+          "day": "Day 2 - Joshimath to Ghangaria via Govindghat (Drive 28kms + Trek 10kms)",
+          "description": [
+            "On the second day of your Valley of Flowers trek, you will enjoy a trekking tour to Ghangaria through Pulna Village.",
+            "You will first take a 4 kilometers drive to Pulna, which is located at an approximate altitude of around 7,200 feet above sea level.",
+            "From here, you will cover an easy to moderate trekking trail of 10 kms to arrive at Ghangaria within 5 to 6 hours.",
+            "Once you reach Ghangaria village, located at an approximate altitude of around 7,200 feet above sea level, you can wind up for the day and rest in a hotel or camp under the night sky."
+          ],
+          "images": {
+            "img1": "https://images.pexels.com/photos/554609/pexels-photo-554609.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "img2": "https://images.pexels.com/photos/1287135/pexels-photo-1287135.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "img3": "https://images.pexels.com/photos/371662/pexels-photo-371662.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "img4": "https://images.pexels.com/photos/2884909/pexels-photo-2884909.jpeg?auto=compress&cs=tinysrgb&w=400"
+          }
+        },
+        {
+          "day": "Day 3 - Ghangaria to Hemkunt Sahib & Back to Ghangaria (Trek 6kms)",
+          "description": [
+            "Your fourth day will be all about a trekking tour to the famous religious site, Hemkund Sahib.",
+            "You will cover a steep ascent of 6 kilometers to reach Hemkund Sahib, which is located at an approximate altitude of around 14,107 feet above sea level.",
+            "After enjoying a peaceful day here, you will take a steep descent and get back to Ghangaria for rest."
+          ],
+          "images": {
+            "img1": "https://images.pexels.com/photos/9159958/pexels-photo-9159958.jpeg?auto=compress&cs=tinysrgb&w=400",
+            "img2": "https://images.pexels.com/photos/1307781/pexels-photo-1307781.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "img3": "https://images.pexels.com/photos/18059769/pexels-photo-18059769/free-photo-of-emerge.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          }
+        },
+        {
+          "day": "Day 4 - Ghangaria to Valley of Flowers and back to Ghangaria (Trek 5kms)",
+          "description": [
+            "Visit to the beautiful Valley of Flowers.",
+            "You will cover a trekking trail of 5 kms within 3 hours to reach the valley that is located at an approximate altitude of around 11,500 feet above sea level.",
+            "After enjoying a day out at Valley of Flowers, you will cover a descending trail of 3 hours to reach Ghangaria for your overnight stay."
+          ],
+          "images": {
+            "img1": "https://images.pexels.com/photos/30035200/pexels-photo-30035200/free-photo-of-pastoral-stone-walls-in-kettlewell-england.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "img2": "https://images.pexels.com/photos/27601148/pexels-photo-27601148/free-photo-of-a-lake-surrounded-by-mountains-and-trees.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "img3": "https://images.pexels.com/photos/27496409/pexels-photo-27496409/free-photo-of-gulmarg.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          }
+        },
+        {
+          "day": "Day 5 - Ghangaria to Joshimath via Badrinath",
+          "description": [
+            "On the fifth day, you will cover the same trekking trail and reach Govindghat via Pulna Village.",
+            "Leave Govindghat before 12:00 noon and enjoy the scenic route of shri badri vishal ji and after darshan leave for joshimath."
+          ],
+          "images": {
+            "img1": "https://images.pexels.com/photos/4242690/pexels-photo-4242690.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "img2": "https://images.pexels.com/photos/9962698/pexels-photo-9962698.jpeg?auto=compress&cs=tinysrgb&w=400",
+            "img3": "https://images.pexels.com/photos/27852924/pexels-photo-27852924/free-photo-of-a-field-of-wildflowers-and-trees-in-the-mountains.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          }
+        },
+        {
+          "day": "Day 6 - Reach Rishikesh in the evening (Drive 289kms)",
+          "description": [
+            "After breakfast we will leave for RISHIKESH by 6:30-7:30 Pm.",
+            "Say good bye to your fellow travelers and enjoy the memories till next time."
+          ],
+          "images": {
+            "img1": "https://images.pexels.com/photos/27601483/pexels-photo-27601483/free-photo-of-a-field-of-wildflowers-and-rocks-in-the-mountains.jpeg?auto=compress&cs=tinysrgb&w=400",
+            "img2": "https://images.pexels.com/photos/13624290/pexels-photo-13624290.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "img3": "https://images.pexels.com/photos/17310867/pexels-photo-17310867/free-photo-of-meadow-in-mountains.jpeg?auto=compress&cs=tinysrgb&w=400"
+          }
+        }
+      ],
+      "inclusions": [
+        "Accommodation at Auli (1 night) and Ghangaria (3 nights).",
+        "Meals: Breakfast, Lunch, Dinner (12 total).",
+        "Transport: Pickup and drop from Delhi.",
+        "Guided treks to Hemkunt Sahib and Valley of Flowers."
+      ],
+      "exclusions": [
+        "Travel insurance.",
+        "GST (5%).",
+        "Entry or viewpoint tickets.",
+        "Food during transit.",
+        "Backpack offloading charges.",
+        "Helicopter ride (₹3500) and mule rental (₹1000)."
+      ],
+      "important_notes": [
+        "Entry to the Valley of Flowers is allowed from 7:00 AM to 5:00 PM only.",
+        "Staying overnight in the Valley of Flowers buffer zone is prohibited.",
+        "Booking modifications are subject to availability."
+      ],
+      "contact_methods": {
+        "phone": "+91-9761966485",
+        "email": "intothewildstays@gmail.com",
+        "whatsapp": "+91-9958838557"
+      },
+      "rules_and_policy": [
+        "Follow the guide's instructions during treks and activities.",
+        "Maintain cleanliness in the Valley of Flowers and surrounding areas.",
+        "Cancellations made within 72 hours of the trip are non-refundable."
+      ]
+    },
+    {
+      "id": 7,
+      "imageUrl": "https://trippyigloo.com/static/falcon/img/stock/tours/gallery/Ladakh-Zanskar-Indus-River-1024x680.jpg",
+      "name": "Leh-Ladakh Himalayan Adventure",
+      "location": "Ladakh, Jammu and Kashmir",
+      "duration": "5 Days, 4 Nights",
+      "price": "29999",
+      "checkInDate": "2024-07-15",
+      "checkOutDate": "2024-07-19",
+      "highlights": [
+        "Welcome to Ladakh, Ladakh, often referred to as the 'Land of High Passes,'' is a mesmerizing region in the Indian Himalayas known for its stunning landscapes, unique culture, and serene monasteries.",
+        "Nestled between the Karakoram and Zanskar mountain ranges, Ladakh offers breathtaking views of snow-capped peaks, pristine lakes, and vast, arid deserts.",
+        "The temple’s intricate carvings and sacred atmosphere invite you to pause and reflect, setting the tone for your adventure."
+      ],
+      "itinerary": [
+        {
+          "day": "Day 1 - ARRIVAL IN LEH | SIGHTSEEING TOUR IN LEH.",
+          "description": [
+            "After arriving at Leh airport, you will be transferred to your pre-booked hotel in Leh.",
+            "Check in and rest for a while before embarking on a sightseeing tour of Leh.",
+            "You will be visiting Leh Palace, Shanti Stupa (a peaceful Buddhist white domed stupa), and later continue your day tour with a visit to the vibrant Leh Market."
+          ],
+          "images": {
+            "img1": "https://images.pexels.com/photos/951927/pexels-photo-951927.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "img2": "https://images.pexels.com/photos/3392154/pexels-photo-3392154.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "img3": "https://images.pexels.com/photos/6576294/pexels-photo-6576294.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "img4": "https://images.pexels.com/photos/17817341/pexels-photo-17817341/free-photo-of-steel-wool-photography-with-milky-way.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          }
+        },
+        {
+          "day": "Day 2 - EXCURSION TO SHAM VALLEY | EXPLORING THE LADAKHI CULTURE.",
+          "description": [
+            "In the morning, you will be driven to Sham Valley. Begin your exploration at the Spituk Gompa and then the Sangam Point, a beautiful confluence of the Zanskar & Indus river.",
+            "Next, make a stop at the Gurudwara Pathar Sahib & drive through the mysterious Magnetic Hills.",
+            "You will also visit the SECMOL School, before heading towards the famous Hall of Fame.",
+            "Afterwards, you can enjoy a White Water Rafting (at your own cost) before returning to your hotel in Leh for an overnight stay."
+          ],
+          "images": {
+            "img1": "https://images.pexels.com/photos/879443/pexels-photo-879443.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "img2": "https://images.pexels.com/photos/5202070/pexels-photo-5202070.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "img3": "https://images.pexels.com/photos/5204433/pexels-photo-5204433.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          }
+        },
+        {
+          "day": "Day 3 - TRIP ACROSS KHARDUNG-LA PASS | DRIVING ACROSS THE HIGHEST ALL SEASON MOTORABLE PASS",
+          "description": [
+            "After breakfast, you will embark on an exciting journey towards the world's highest all season motorable pass - Khardung la Pass.",
+            "During your excursion, make a stop at the famous Rinchen cafe for a steaming bowl of Maggi and a refreshing chai (at your own cost).",
+            "Later, head back to Leh for overnight stay."
+          ],
+          "images": {
+            "img1": "https://images.pexels.com/photos/1581200/pexels-photo-1581200.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "img2": "https://images.pexels.com/photos/2735739/pexels-photo-2735739.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "img3": "https://images.pexels.com/photos/5201838/pexels-photo-5201838.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "img4": "https://images.pexels.com/photos/6576273/pexels-photo-6576273.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          }
+        },
+        {
+          "day": "Day 4 - TRIP TO PANGONG LAKE | EN-ROUTE SIGHTSEEING FROM PANGONG TSO TO LEH.",
+          "description": [
+            "Begin your day trip to the breathtaking Pangong Tso.",
+            "After you arrive at the Pangong Tso, spend the time admiring the dreamy landscapes and the vibrant shades of the lake.",
+            "As you return to Leh via Chang La Pass, you will make stops at the Chang La Baba Temple.",
+            "Thiksey Monastery and Druk Padma School.",
+            "Later, you will return to your hotel in Leh for a comfortable overnight stay."
+          ],
+          "images": {
+            "img1": "https://images.pexels.com/photos/3641808/pexels-photo-3641808.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "img2": "https://images.pexels.com/photos/5014919/pexels-photo-5014919.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "img3": "https://images.pexels.com/photos/6623172/pexels-photo-6623172.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "img4": "https://images.pexels.com/photos/5200927/pexels-photo-5200927.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          }
+        },
+        {
+          "day": "Day 5 - DEPARTURE FROM LEH. ",
+          "description": [
+            "After checking out of your hotel, you will be transferred to Leh airport."
+          ],
+          "images": {
+            "img1": "https://images.pexels.com/photos/28748655/pexels-photo-28748655/free-photo-of-scenic-view-of-mountains-and-stream-in-diskit.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "img2": "https://images.pexels.com/photos/879444/pexels-photo-879444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "img3": "https://images.pexels.com/photos/960220/pexels-photo-960220.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "img4": "https://images.pexels.com/photos/974907/pexels-photo-974907.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          }
+        }
+      ],
+      "inclusions": [
+        "4 nights of stays in Leh",
+        "Day Trip to Sham Valley",
+        "Day Trip Across Khardung La Pass",
+        "Day Trip to Pangong Tso",
+        "Leh Sightseeing Tour",
+        "Airport transfers from Kushok Bakula Rimpochee Airport",
+        "Inner Line Permits",
+        "Ladakh Union Fee",
+        "Oxygen cylinder",
+        "All toll taxes",
+        "Driver",
+        "Transfers",
+        "Daily Breakfast",
+        "Dinner"
+      ],
+      "exclusions": [
+        "Expenses of a personal nature",
+        "Meals not mentioned in the itinerary or inclusions",
+        "Lunch",
+        "Domestic flight tickets",
+        "Travel Insurance",
+        "Entry Fee to Any Monument",
+        "GST inclusion"
+      ],
+      "important_notes": [
+        "We need you to stick to the Tour Program. No refunds if you're late, join late, or leave early.",
+        "Unused tour services aren't refundable.",
+        "Not liable for costs due to incidents like accidents, theft, or changes caused by natural disasters, government orders, strikes, or adverse weather conditions.",
+        "Unexpected costs during the trip must be settled directly with the trip point of contact or captain.",
+        "Remote locations may limit service offerings.",
+        "Respect nature, communities, and trails.",
+        "Belongings are the traveler's responsibility."
+      ],
+      "contact_methods": {
+        "phone": "+91-9761966485",
+        "email": "intothewildstays@gmail.com",
+        "whatsapp": "+91-9958838557"
+      },
+      "rules_and_policy": [
+        "Tour price is subject to change as per occupancy",
+        "Some regions do not have star category hotels due to offbeat locations",
+        "Expect limited amenities like electricity, hot water & Wi-Fi",
+        "Packages are based on base category rooms",
+        "Special requests are subject to availability",
+        "Meal plans are on fixed/buffet basis, not A-la-Carte",
+        "Alcohol consumption subject to hotel rules",
+        "Valid photo ID mandatory for all hotel guests"
+      ]
+    },
+    {
+      "id": 8,
+      "imageUrl": "https://i0.wp.com/www.makemyride.in/wp-content/uploads/2023/07/divya-agrawal-VV0fF4EoZaI-unsplash-scaled.jpg?resize=1080%2C675&ssl=1",
+      "name": "Kashmir Valley Exploration",
+      "location": "Jammu and Kashmir",
+      "duration": "6 Days, 5 Nights",
+      "price": "34999",
+      "checkInDate": "2024-08-15",
+      "checkOutDate": "2024-08-20",
+      "highlights": [
+        "Welcome to Jammu, the gateway to Kashmir, where every corner is steeped in history and culture.",
+        "Begin your journey by exploring the iconic Raghunath Temple, a stunning example of Hindu architecture that stands as a testament to the city's spiritual heritage.",
+        "The temple’s intricate carvings and sacred atmosphere invite you to pause and reflect, setting the tone for your adventure."
+      ],
+      "itinerary": [
+        {
+          "day": "Day 1 - JAMMU TO PAHALGAM",
+          "description": [
+            "Arrive at Jammu by train or flight.",
+            "Travel to Pahalgam by taxi or bus (approximately 7-8 hours, 95 km).",
+            "Check-in at your pre-booked hotel in Pahalgam.",
+            "Enjoy a leisurely lunch at the hotel or a local restaurant.",
+            "Explore the scenic beauty of Pahalgam: stroll along the Lidder River, visit the local market.",
+            "Dinner at the hotel. Overnight stay in Pahalgam."
+          ],
+          "images": {
+            "img1": "https://images.pexels.com/photos/14265677/pexels-photo-14265677.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "img2": "https://images.pexels.com/photos/6649781/pexels-photo-6649781.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "img3": "https://images.pexels.com/photos/18276027/pexels-photo-18276027/free-photo-of-mountains-in-snow-under-storm-clouds.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "img4": "https://images.pexels.com/photos/8303559/pexels-photo-8303559.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          }
+        },
+        {
+          "day": "Day 2 - PAHALGAM TO SRINAGAR",
+          "description": [
+            "Breakfast at the hotel.",
+            "Check out and travel to Srinagar (approximately 4-5 hours, 90 km).",
+            "Check-in at your hotel or houseboat in Srinagar.",
+            "Have lunch at the hotel or a local restaurant.",
+            "Explore the famous Dal Lake: enjoy a Shikara ride (traditional wooden boat).",
+            "Visit the Mughal Gardens: Shalimar Bagh, Nishat Bagh, and Chashme Shahi.",
+            "Dinner at the hotel or a local restaurant. Overnight stay in Srinagar."
+          ],
+          "images": {
+            "img1": "https://images.pexels.com/photos/25786569/pexels-photo-25786569/free-photo-of-a-boat-on-a-lake.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "img2": "https://images.pexels.com/photos/16213217/pexels-photo-16213217/free-photo-of-lake-and-hazratbal-city-in-india.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "img3": "https://images.pexels.com/photos/25786716/pexels-photo-25786716/free-photo-of-scenic-garden-below-the-kashmir-mountains.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "img4": "https://images.pexels.com/photos/24601787/pexels-photo-24601787/free-photo-of-dal-lake-surrounded-by-pir-panjal-mountains-in-snow.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          }
+        },
+        {
+          "day": "Day 3 -SIGHTSEEING IN SRINAGAR",
+          "description": [
+            "Breakfast at the hotel.",
+            "Visit the historic Jamia Masjid and the old city of Srinagar.",
+            "Explore the local markets for handicrafts and souvenirs. Lunch at a local restaurant or hotel.",
+            "Visit the Tulip Garden (seasonal) or the botanical garden. Optionally, visit the Shankaracharya Temple for panoramic views of Srinagar.",
+            "Relax and enjoy a traditional Kashmiri dinner at the hotel. Overnight stay in Srinagar."
+          ],
+          "images": {
+            "img1": "https://images.pexels.com/photos/27435045/pexels-photo-27435045/free-photo-of-mountains.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "img2": "https://images.pexels.com/photos/25786554/pexels-photo-25786554/free-photo-of-boats-crossing-the-dal-lake-with-view-of-snowcapped-mountains-in-the-background.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "img3": "https://images.pexels.com/photos/25786709/pexels-photo-25786709/free-photo-of-view-of-a-road-between-autumnal-trees.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "img4": "https://images.pexels.com/photos/15363680/pexels-photo-15363680/free-photo-of-mosque-in-the-old-city-of-srinagar-in-jammu-and-kashmir.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          }
+        },
+        {
+          "day": "Day 4 - EXCURSION TO GULMARG",
+          "description": [
+            "Breakfast at the hotel.",
+            "Check out and travel to Gulmarg (approximately 2 hours, 50 km).",
+            "Enjoy the Gulmarg Gondola ride (one of the highest cable cars in the world) for stunning views.",
+            "Lunch at a local restaurant or hotel in Gulmarg.",
+            "Explore the meadows, visit the St. Mary's Church, and enjoy nature walks or outdoor activities.",
+            "Return to Srinagar. Dinner at the hotel or a local restaurant. Overnight stay in Srinagar."
+          ],
+          "images": {
+            "img1": "https://images.pexels.com/photos/30092087/pexels-photo-30092087/free-photo-of-winter-landscape-in-sonamarg-kashmir.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "img2": "https://images.pexels.com/photos/6780256/pexels-photo-6780256.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "img3": "https://images.pexels.com/photos/14374647/pexels-photo-14374647.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "img4": "https://images.pexels.com/photos/10679349/pexels-photo-10679349.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          }
+        },
+        {
+          "day": "Day 5 - EXCURSION TO SONMARG",
+          "description": [
+            "Breakfast at the hotel.",
+            "Check out and travel to Sonmarg (approximately 3 hours, 80 km).",
+            "Explore the beautiful Thajiwas Glacier (by pony or on foot).",
+            "Lunch at a local restaurant or packed lunch. Enjoy the scenic beauty of Sonmarg and the surrounding landscapes.",
+            "Return to Srinagar. Dinner at the hotel or a local restaurant. Overnight stay in Srinagar."
+          ],
+          "images": {
+            "img1": "https://images.pexels.com/photos/30092080/pexels-photo-30092080/free-photo-of-snow-capped-mountains-in-sonamarg-during-winter.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "img2": "https://images.pexels.com/photos/30092081/pexels-photo-30092081/free-photo-of-majestic-snow-capped-peaks-of-sonamarg.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "img3": "https://images.pexels.com/photos/10918948/pexels-photo-10918948.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "img4": "https://images.pexels.com/photos/19535685/pexels-photo-19535685/free-photo-of-white-snow-on-mountain-peak.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          }
+        },
+        {
+          "day": "Day 6 - DEPARTURE TO JAMMU",
+          "description": [
+            "Breakfast at the hotel.",
+            "Check out from the hotel. Travel back to Jammu (approximately 7-8 hours, 90 km).",
+            "Arrive in Jammu. Have lunch in Jammu if time permits or directly head to the railway station/airport.",
+            "Departure from Jammu by train or flight."
+          ],
+          "images": {
+            "img1": "https://images.pexels.com/photos/18646445/pexels-photo-18646445/free-photo-of-rangdum-village-in-zanskar-valley.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "img2": "https://images.pexels.com/photos/18646436/pexels-photo-18646436/free-photo-of-pensi-la-also-known-as-penzi-la-mountain-pass-4-400-m-between-suru-valley-and-zanskar-valley-ladakh-region-india.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "img3": "https://images.pexels.com/photos/25786581/pexels-photo-25786581/free-photo-of-boats-crossing-the-dal-lake-with-view-of-snowcapped-mountains-in-the-background.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "img4": "https://images.pexels.com/photos/17957568/pexels-photo-17957568/free-photo-of-reflection-of-mountain-in-water.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          }
+        }
+      ],
+      "inclusions": [
+        "Accommodation in hotels/houseboats",
+        "Daily breakfast and dinner",
+        "All transfers and sightseeing by private vehicle",
+        "Shikara ride on Dal Lake",
+        "Gondola ride in Gulmarg (Phase 1)",
+        "Toll taxes, parking fees, and driver's allowances"
+      ],
+      "exclusions": [
+        "Airfare/train fare to and from Jammu",
+        "Any additional meals or beverages",
+        "Personal expenses (laundry, phone calls, etc.)",
+        "Entrance fees to attractions",
+        "Pony rides or additional activities not mentioned in the itinerary",
+        "Travel insurance"
+      ],
+      "important_notes": [
+        "Itinerary covers major attractions in the Kashmir Valley",
+        "Provides a balanced experience of sightseeing and leisure",
+        "Accommodation varies by category (Standard, Deluxe, Super Deluxe, Luxury)"
+      ],
+      "contact_methods": {
+        "phone": "+91-9761966485",
+        "email": "intothewildstays@gmail.com",
+        "whatsapp": "+91-9958838557"
+      },
+      "rules_and_policy": [
+        "Booking amount payment varies based on days before trip",
+        "Cancellation charges depend on how close to the trip date",
+        "Refund policy differs based on cancellation timeline",
+        "Free cancellation up to 30 days before trip",
+        "Partial refunds for cancellations closer to trip date"
+      ]
+    },
+    {
+      "id": 9,
+      "imageUrl": "https://ekaxp.in/wp-content/uploads/2023/09/Mountain-Landscapes-of-Mechuka-in-Arunachal_Eka-Experiences.jpg",
+      "name": "Mechuka | The Magical Valley",
+      "location": "Mechuka, Arunachal Pradesh",
+      "duration": "6 Days, 5 Nights",
+      "price": "16799",
+      "checkInDate": "2024-12-01",
+      "checkOutDate": "2024-12-06",
+      "itinerary": [
+        {
+          "day": "Day 1 - MURKONGSELEK / DIBRUGARH – AALO",
+          "description": [
+            "MURKONGSELEK / DIBRUGARH – AALO.",
+            "Embark on your Journey from Kamakhya railway station, reach the last station Murkongselek / Dibrugarh, meet the team and ride towards Aalo.",
+            "Check in to hotel and overnight stay in Aalo."
+          ],
+          "images": {
+            "img1": "https://images.pexels.com/photos/28748192/pexels-photo-28748192/free-photo-of-serene-alpine-forest-in-arunachal-pradesh-india.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "img2": "https://images.pexels.com/photos/19946580/pexels-photo-19946580/free-photo-of-mountain-valley-covered-with-smoke.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          }
+        },
+        {
+          "day": "Day 2 - ALONG - MECHUKA",
+          "description": [
+            "ALONG - MECHUKA. After breakfast, drive to Mechuka (6-7 hrs, 186 km).",
+            "Visit Siko Dido waterfall en route.",
+            "Evening free for local market exploration.",
+            "Overnight stay in Mechuka."
+          ],
+          "images": {
+            "img1": "https://images.pexels.com/photos/26829034/pexels-photo-26829034/free-photo-of-cloud-over-mountains-peaks.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "img2": "https://images.pexels.com/photos/19248350/pexels-photo-19248350/free-photo-of-scenic-view-of-mountains-and-valleys.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          }
+        },
+        {
+          "day": "Day 3 - MECHUKA LA TREK -DORJEELING MOUNTAIN",
+          "description": [
+            "MECHUKA LA TREK -DORJEELING MOUNTAIN. Trek to Dorjeeling Village and Mountain.",
+            "Explore the countryside with beautiful streams and golden grasses.",
+            "Trek back to homestay by dawn. Overnight stay."
+          ],
+          "images": {
+            "img1": "https://images.pexels.com/photos/5330710/pexels-photo-5330710.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "img2": "https://images.pexels.com/photos/16665662/pexels-photo-16665662/free-photo-of-storm-clouds-over-mountains-and-forest.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          }
+        },
+        {
+          "day": "Day 4 - MECHUKA - Visit Siang River bank",
+          "description": [
+            "MECHUKA. Visit Siang River bank, Dorjeeling Village, Salman Khan view point, Gurudwara, Hanuman Point, and Old Gompa (Samten Yongcha Monastery). Evening at leisure."
+          ],
+          "images": {
+            "img1": "https://images.pexels.com/photos/2058754/pexels-photo-2058754.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "img2": "https://images.pexels.com/photos/20476397/pexels-photo-20476397/free-photo-of-tourist-sitting-on-glow-lake-next-to-the-observation-tower.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          }
+        },
+        {
+          "day": "Day 5 - MECHUKA - AALONG.",
+          "description": [
+            "MECHUKA - AALONG. Return journey to Along.",
+            "Visit Bogibeel bridge en route. Overnight stay in Along."
+          ],
+          "images": {
+            "img1": "https://images.pexels.com/photos/6901157/pexels-photo-6901157.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "img2": "https://images.pexels.com/photos/8495440/pexels-photo-8495440.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          }
+        },
+        {
+          "day": "Day 6 - ALONG - DIBRUGARH | DEPARTURE",
+          "description": [
+            "ALONG - DIBRUGARH | DEPARTURE.",
+            "After breakfast, depart for Dibrugarh airport/railway station."
+          ],
+          "images": {
+            "img1": "https://images.pexels.com/photos/29179797/pexels-photo-29179797/free-photo-of-adventurer-in-snowy-arunachal-pradesh-mountains.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "img2": "https://images.pexels.com/photos/16665662/pexels-photo-16665662/free-photo-of-storm-clouds-over-mountains-and-forest.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          }
+        }
+      ],
+      "inclusions": [
+        "Hotels with breakfast (Standard/Semi Deluxe Category)",
+        "Exclusive vehicle (Innova or Similar) Dibrugarh to Dibrugarh",
+        "All sightseeing as per itinerary",
+        "Toll taxes/Parking",
+        "Inner Line Permit for Arunachal Pradesh",
+        "End to End Assistance"
+      ],
+      "exclusions": [
+        "Extra fooding",
+        "Any entertainment fee",
+        "Travel Insurance",
+        "Any monument fee",
+        "Personal expenses (laundry, phone calls, etc.)",
+        "Anything not specified in inclusions"
+      ],
+      "important_notes": [
+        "Tour requires careful planning",
+        "Vehicle provided is Innova or similar",
+        "Inner Line Permit is mandatory",
+        "Breakfast included from day 2 to 6",
+        "Dinner included from day 1 to 5"
+      ],
+      "contact_methods": {
+        "phone": "+91-9761966485",
+        "email": "intothewildstays@gmail.com",
+        "whatsapp": "+91-9958838557"
+      },
+      "rules_and_policy": [
+        "Booking amount payment varies based on days before trip",
+        "Additional services not mentioned in inclusions will be charged extra",
+        "Tour modifications subject to weather and local conditions",
+        "Personal belongings are traveler's responsibility"
+      ]
+    },
+    {
+      "id": 10,
+      "imageUrl": "https://d26dp53kz39178.cloudfront.net/media/uploads/products/4_5_zLGgb2Q.jpg",
+      "name": "Hornbill Festival & Dzukou Valley Trek",
+      "location": "Kohima, Nagaland, INDIA",
+      "duration": "4 Days, 3 Nights",
+      "price": "6199",
+      "checkInDate": "2024-12-01",
+      "checkOutDate": "2024-12-04",
+      "itinerary": [
+        {
+          "day": "Day 1",
+          "description": [
+            "Arrival at Dimapur Railway station, transfer to Kisama Heritage Village. Check in at campsite, explore the Hornbill Festival in afternoon/evening, attend night concert. Overnight stay at Kisama Heritage Village."
+          ],
+          "images": {
+            "img1": "https://images.pexels.com/photos/2439742/pexels-photo-2439742.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          }
+        },
+        {
+          "day": "Day 2",
+          "description": [
+            "Jakhama to Dzukou Valley Base Camp. Trek through the stunning landscapes and set up camp at the base."
+          ],
+          "images": {
+            "img1": "https://images.pexels.com/photos/20805163/pexels-photo-20805163/free-photo-of-butterfly-on-flowers.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          }
+        },
+        {
+          "day": "Day 3",
+          "description": [
+            "Dzukou Valley exploration and return to Kisama Heritage Village. Experience the 'Valley of Flowers of the Northeast' with its vibrant wildflowers and serene hiking trails."
+          ],
+          "images": {
+            "img1": "https://images.pexels.com/photos/8061236/pexels-photo-8061236.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          }
+        },
+        {
+          "day": "Day 4",
+          "description": [
+            "Kisama Heritage Village to Dimapur/Kohima for departure. Final morning at the festival before heading back."
+          ],
+          "images": {
+            "img1": "https://images.pexels.com/photos/14025971/pexels-photo-14025971.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          }
+        }
+      ],
+      "inclusions": [
+        "Tents on sharing basis",
+        "Breakfast and dinner daily",
+        "One lunch during valley trekking",
+        "Local Guide services",
+        "Transportation between campsite and trekking point",
+        "Inner Line Permit",
+        "Entry fees to Dzukou Valley"
+      ],
+      "exclusions": [
+        "Travel insurance",
+        "Extra food and beverages",
+        "Tips and gratuities",
+        "Entry fees to monuments not in package",
+        "Personal expenses",
+        "Camera fees",
+        "Medical expenses",
+        "Additional transportation charges"
+      ],
+      "important_notes": [
+        "Tents are allocated on sharing basis (2-man, 3-man, 4-man, and family tents)",
+        "Single occupancy in 2-man tent costs extra ₹2000",
+        "Pickup/drop services available from Kohima, Dimapur and Guwahati",
+        "Festival showcases traditional dance, music, and Naga culture"
+      ],
+      "contact_methods": {
+        "phone": "+91-9761966485",
+        "email": "intothewildstays@gmail.com",
+        "whatsapp": "+91-9958838557"
+      },
+      "rules_and_policy": [
+        "Tent allocation subject to availability",
+        "Vehicle services require prior arrangement",
+        "Package modifications based on group size",
+        "Campsite inclusions differ from regular tours"
+      ]
+    },
+    {
+      "id": 11,
+      "imageUrl": "https://static2.tripoto.com/media/filter/tst/img/1/TripDocument/1486530375_dsc_0113.jpg",
+      "name": "EAST SIKKIM - Short Escape",
+      "location": "SIKKIM, INDIA",
+      "duration": "3 Days, 2 Nights",
+      "price": "7999",
+      "checkInDate": "2024-12-01",
+      "checkOutDate": "2024-12-03",
+      "itinerary": [
+        {
+          "day": "Day 1",
+          "description": [
+            "Arrival at NJP or Bagdogra Airport. Transfer to Gangtok, the capital of Sikkim (approximately 4-5 hours). Check into hotel and spend the evening exploring MG Marg, the popular shopping and dining area in Gangtok."
+          ],
+          "images": {
+            "img1": "https://images.pexels.com/photos/17845104/pexels-photo-17845104/free-photo-of-kanchanjunga-mountain-sunrise.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "img2": "https://images.pexels.com/photos/3275010/pexels-photo-3275010.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "img3": "https://images.pexels.com/photos/2682181/pexels-photo-2682181.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          }
+        },
+        {
+          "day": "Day 2",
+          "description": [
+            "Gangtok Local Sightseeing. Visit Rumtek Monastery, Enchey Monastery, Namgyal Institute of Tibetology. Optional visit to Tsomgo Lake (Changu Lake) and other local attractions."
+          ],
+          "images": {
+            "img1": "https://images.pexels.com/photos/2610219/pexels-photo-2610219.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "img2": "https://images.pexels.com/photos/2324780/pexels-photo-2324780.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "img3": "https://images.pexels.com/photos/679492/pexels-photo-679492.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          }
+        },
+        {
+          "day": "Day 3",
+          "description": [
+            "After breakfast, check out from hotel and transfer to NJP/Bagdogra for departure."
+          ],
+          "images": {
+            "img1": "https://images.pexels.com/photos/250400/pexels-photo-250400.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "img2": "https://images.pexels.com/photos/953497/pexels-photo-953497.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "img3": "https://images.pexels.com/photos/8051170/pexels-photo-8051170.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          }
+        }
+      ],
+      "inclusions": [
+        "NJP-NJP/BAGDOGRA Assistance",
+        "Hotels with breakfast & dinner (Economy/Standard/Semi Deluxe Category)",
+        "Exclusive vehicle",
+        "All sightseeing as per itinerary",
+        "All VAT and taxes",
+        "Permit arrangement and processing"
+      ],
+      "exclusions": [
+        "Insurance/Taxes",
+        "Extra food/Beverage",
+        "Any entertainment fee",
+        "Any monument fee",
+        "Personal expenses (Telephone, laundry, etc.)",
+        "Boots, gloves, jacket, room heater",
+        "Zero point visit (optional, pay extra)"
+      ],
+      "important_notes": [
+        "Inner Line Permits (ILP) required for specific regions",
+        "Protected Area Permits (PAP) needed for certain areas",
+        "Road conditions can be unpredictable",
+        "Zero point is not included in the package",
+        "Check travel advisories before planning"
+      ],
+      "contact_methods": {
+        "phone": "+91-9761966485",
+        "email": "intothewildstays@gmail.com",
+        "whatsapp": "+91-9958838557"
+      },
+      "rules_and_policy": [
+        "Permits must be obtained from Sikkim Tourism office",
+        "Package modifications based on weather conditions",
+        "Road access subject to local conditions",
+        "Additional activities available at extra cost"
+      ]
+    },
+    {
+      "id": 12,
+      "imageUrl": "https://res.cloudinary.com/roundglass/image/upload/f_auto/ar_4:3,c_fill,w_auto/g_auto,q_auto/v1649765953/rg/collective/media/meghalaya-nongriat-double-decker-living-root-bridge-greenery-people-ashwin-ezhumalai_mmdvms.jpg",
+      "name": "Meghalaya – Of Root Bridges, Rivers and Waterfalls",
+      "location": "MEGHALAYA, INDIA",
+      "duration": "6 Days, 5 Nights",
+      "price": "14499",
+      "checkInDate": "2024-12-01",
+      "checkOutDate": "2024-12-06",
+      "itinerary": [
+        {
+          "day": "Day 1",
+          "description": [
+            "Arrival at Guwahati Airport/Railway Station. Drive to Shillong, stop at Umiam Lake for boating and scenic views. Check in to hotel in Shillong and relax."
+          ],
+          "images": {
+            "img1": "https://images.pexels.com/photos/12233686/pexels-photo-12233686.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "img2": "https://images.pexels.com/photos/1403036/pexels-photo-1403036.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          }
+        },
+        {
+          "day": "Day 2",
+          "description": [
+            "Shillong Local Sightseeing. Visit Elephant falls (three-step waterfall), Wards Lake, Cathedral, local market. Evening visit to Shillong peak for sunset views of the city."
+          ],
+          "images": {
+            "img1": "https://images.pexels.com/photos/27786369/pexels-photo-27786369/free-photo-of-lyngksiar-waterfall.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "img2": "https://images.pexels.com/photos/6064824/pexels-photo-6064824.jpeg?auto=compress&cs=tinysrgb&w=400"
+          }
+        },
+        {
+          "day": "Day 3",
+          "description": [
+            "Shillong to Cherrapunjee. Visit Latium Canyon, Nohkalikai Falls, Seven Sisters Falls, Mawsmai Falls. Explore Mawsmai Cave with its stalactites and stalagmites. Visit Dainthlen Falls and Wei Sawdong Falls. Overnight stay."
+          ],
+          "images": {
+            "img1": "https://images.pexels.com/photos/29106676/pexels-photo-29106676/free-photo-of-tranquil-farmer-in-foggy-meadow-meghalaya.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "img2": "https://images.pexels.com/photos/27820314/pexels-photo-27820314/free-photo-of-the-beauty-of-meghalaya.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          }
+        },
+        {
+          "day": "Day 4",
+          "description": [
+            "Trek to Nongriat Double Decker Root Bridge. Early breakfast, drive to Tyrna village for trek start. 3000+ steps through sacred groves and suspended bridges. Visit rainbow falls. Travel to Dawki-Mawlynnong for overnight stay."
+          ],
+          "images": {
+            "img1": "https://images.pexels.com/photos/29062599/pexels-photo-29062599/free-photo-of-serene-waterfall-in-meghalaya-s-lush-wilderness.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "img2": "https://images.pexels.com/photos/12233685/pexels-photo-12233685.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          }
+        },
+        {
+          "day": "Day 5",
+          "description": [
+            "Dawki to Shnongpedeng. Visit Umngot River. Activities include boating, river rafting, kayaking, cliff jumping. Overnight camping at Shnongpedeng or homestay at Dawki."
+          ],
+          "images": {
+            "img1": "https://images.pexels.com/photos/19469036/pexels-photo-19469036/free-photo-of-krang-shuri-waterfalls-krang-suri-rd-umlarem-meghalaya-india-most-beautiful-falls-in-meghalaya.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "img2": "https://images.pexels.com/photos/29613184/pexels-photo-29613184/free-photo-of-majestic-waterfall-amidst-lush-greenery-in-meghalaya.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          }
+        },
+        {
+          "day": "Day 6",
+          "description": [
+            "Early morning checkout and proceed to Guwahati with sightseeing en route. Tour ends."
+          ],
+          "images": {
+            "img1": "https://images.pexels.com/photos/18476582/pexels-photo-18476582/free-photo-of-waterfalls-on-rocks-in-deep-forest.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "img2": "https://images.pexels.com/photos/12233687/pexels-photo-12233687.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          }
+        }
+      ],
+      "inclusions": [
+        "Accommodation in Hotel/Homestay and Camping at Shnongpdeng",
+        "Transportation (Innova/Dzire or similar)",
+        "Breakfast from day 2 to 7",
+        "Dinner on day 5 at Shnongpedeng Camping",
+        "Permits & Parking charges",
+        "Toll Taxes"
+      ],
+      "exclusions": [
+        "Insurance/Taxes",
+        "Entry fees/Camera fees",
+        "Personal expenses (Laundry etc.)",
+        "Additional sightseeing not mentioned in itinerary",
+        "Costs due to natural calamities or political disturbance",
+        "Price increases in transport before departure"
+      ],
+      "important_notes": [
+        "Known as 'Scotland of the East'",
+        "Features unique living root bridges",
+        "Home to some of the wettest places on Earth",
+        "Crystal-clear rivers perfect for water activities",
+        "Rich in natural beauty and cultural diversity"
+      ],
+      "contact_methods": {
+        "phone": "+91-9761966485",
+        "email": "intothewildstays@gmail.com",
+        "whatsapp": "+91-9958838557"
+      },
+      "rules_and_policy": [
+        "Check latest travel advisories before planning",
+        "Activities subject to weather conditions",
+        "Additional costs for natural calamities or political disturbance",
+        "Transport price changes to be borne by clients",
+        "Modifications based on local conditions"
+      ]
+    },
+    {
+      "id": 13,
+      "imageUrl": "https://www.sikkimdarjeelingtourism.com/images/packages/package_banner_1689920458.jpg",
+      "name": "Chopta Tungnath",
+      "location": "Chopta Tungnath, Uttrakhand",
+      "duration": "3 Days, 2 Nights",
+      "price": "8999",
+      "checkInDate": "2024-12-01",
+      "checkOutDate": "2024-12-04",
+      "highlights": [
+        "Chopta to Tungnath is a breathtaking trek in the Garhwal region of Uttarakhand, India. Chopta, often referred to as the 'Mini Switzerland of India,' serves as the base for this enchanting journey.",
+        "Tungnath Temple: The world's highest Shiva temple, located at an elevation of 12,073 ft. It's part of the Panck Kedar Temples of Lord Shiva.",
+        "Chandrashila Peak: Located at an elevation of 12,110 ft, this peak is also known as 'Moon Rock'. It offers views of the Himalayas, including Nanda Devi, Trisul, Kedar Peak, Bandarpunch, and Chaukhamba peaks.",
+        "Rhododendron forest: The trail features a captivating rhododendron forest with red, scarlet, and pink flowers"
+      ],
+      "itinerary": [
+        {
+          "day": "Day 0 - Noida to Chopta I Overnight Journey",
+          "description": [
+            "Assemble at boarding point in Noida - assemble at boarding point- Noida Electronic city metro station gate no. 1",
+            "Start an overnight journey to Chopta and socialize with your co-travellers."
+          ],
+          "images": {
+            "img1": "https://images.pexels.com/photos/29510970/pexels-photo-29510970/free-photo-of-scenic-view-of-tungnath-temple-in-uttarakhand-hills.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "img2": "https://images.pexels.com/photos/21797679/pexels-photo-21797679/free-photo-of-clouds-over-grassland-in-mountains.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          }
+        },
+        {
+          "day": "Day 1 - Devprayag Sangam | Chopta Arrival",
+          "description": [
+            "Enroute Chopta, we will take a pit stop at Devprayag in early morning to witness the beautiful confluence of Bhagirathi & Alaknanda rivers ultimately becoming Ganga river. Further we will take a halt around",
+            "Rudraprayag to grab a satisfying breakfast and continue our journey towards Chopta. After arriving in Chopta Valley, check-in to our scenic",
+            "property, freshen-up and have some leisure. Go for a forest walk and absorb in the charming Himalayan beauty.",
+            "In the evening, enjoy warm bonfire and mouth-watering snacks under a million stars.",
+            "Savour home-style cooked dinner and overnight stay in camps/hotel."
+          ],
+          "images": {
+            "img1": "https://images.pexels.com/photos/19877297/pexels-photo-19877297/free-photo-of-chopta-tungnath-chandrashila-trek.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "img2": "https://images.pexels.com/photos/19877300/pexels-photo-19877300/free-photo-of-chopta-tungnath-chandrashila-trek.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "img3": "https://images.pexels.com/photos/16660010/pexels-photo-16660010/free-photo-of-hindu-temple-in-the-mountains-in-winter.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          }
+        },
+        {
+          "day": "Day 2 - Trek To Chandrashila via Tungnath Mahadev Temple",
+          "description": [
+            "Wake up early to witness the beautiful sunrise and post breakfast, drive to the starting point of our trek. Begin your trek to Tungnath - one of the Panch Kedar and World’s highest temple dedicated to Lord Shiva.",
+            "Trek further to magnificient Chandrashila Peak situated at 13,000 ft (if weather & conditions permits) and gather for an #InstaPerfect group picture.",
+            "Trek back to Chopta village and drive back to our property and have some leisure.",
+            "Savour home-style cooked dinner and overnight stay in a camps/hotel."
+          ],
+          "images": {
+            "img1": "https://images.pexels.com/photos/9963738/pexels-photo-9963738.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "img2": "https://images.pexels.com/photos/19877300/pexels-photo-19877300/free-photo-of-chopta-tungnath-chandrashila-trek.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "img3": "https://images.pexels.com/photos/10432965/pexels-photo-10432965.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "img4": "https://images.pexels.com/photos/5289895/pexels-photo-5289895.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          }
+        },
+        {
+          "day": "Day 3 - Drive To Sari Village | Trek To Deoriatal I Depart For Noida",
+          "description": [
+            "Wake up to a peaceful mountain morning and post breakfast, drive to Sari Village.",
+            "Begin your trek to mesmerising Deoriatal Lake. Trek back to Sari village and post lunch start-off your return journey to Noida.",
+            "Take a halt at Rishikesh in the night to explore the local market, go for cafe hopping, visit temples and serene Ganga ghats (if time permits)."
+          ],
+          "images": {
+            "img1": "https://img.freepik.com/free-photo/tourists-taking-photos-beautiful-scenery-skiing-around-deogyusan_335224-426.jpg?t=st=1736418459~exp=1736422059~hmac=b96bfd474b24733bd2c10b7332c29af0feb89ba5f82a24725f2427cf9dac3f8d&w=900",
+            "img2": "https://img.freepik.com/free-photo/mountain-covered-with-snow-blue-sky_181624-11004.jpg?t=st=1736418486~exp=1736422086~hmac=4c2d526403666918570e7cea3255ee5bb31e24ecf42c068e446e8ce56b919dcd&w=900",
+            "img3": "https://img.freepik.com/free-photo/beautiful-scenery-high-rocky-mountains-covered-with-snow-breathtaking-sky_181624-24945.jpg?t=st=1736418489~exp=1736422089~hmac=b64fc36254a052cde0185bde50a6c7d2e5583c6d579d6155b051dea90cf657cc&w=900",
+            "img4": "https://img.freepik.com/free-photo/mountain-with-cliff_1112-565.jpg?t=st=1736418502~exp=1736422102~hmac=60a9b234911406a9ad976cd1f19fdf00d8a6af0bc7662caa5a9c6cb3489a1071&w=900"
+          }
+        },
+        {
+          "day": "Day 4 - Noida Arrival | Trip Ends",
+          "description": [
+            "Reach Noida early morning with lots of amazing memories and unforgettable experiences."
+          ],
+          "images": {
+            "img1": "https://images.pexels.com/photos/14758773/pexels-photo-14758773.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "img2": "https://images.pexels.com/photos/28556110/pexels-photo-28556110/free-photo-of-aerial-night-view-of-delhi-s-bustling-streets.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          }
+        }
+      ],
+      "inclusions": [
+        "Transportation from Noida to Noida - Noida electronic City metro station gate no. 1",
+        "Accommodation on Sharing Basis: Swiss Camps/Homestay.",
+        "Experienced and cool Trip Captain/Trek Guide.",
+        "Bonfire (if weather permits) during the stay and local explorations as per itinerary.",
+        "Veg Meals: Dinner (2), Breakfast (2) and Evening Snacks (2), starting from Evening Snacks on Day 1 to Breakfast on Day 3.",
+        "Driver allowances, toll taxes, parking, state taxes.",
+        "Pick up and drop from NJP/Bagdogra",
+        "End to end assistance"
+      ],
+      "exclusions": [
+        "Any extra meals apart from the ones mentioned under inclusions.",
+        "Travel Insurance, items of personal nature like porterage, tips",
+        "Any entry fees, extra expenses for optional activities, room heaters or tickets, unless quoted in Inclusions.",
+        "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+        "Personal expenses (phone calls, laundry, etc.)",
+        "Tips and gratuities",
+        "Porter service",
+        "Any cost arising due to natural calamities",
+        "Anything not mentioned in inclusions"
+      ],
+      "important_notes": [
+        "Tiger Hill sunrise view subject to weather conditions",
+        "Toy Train booking subject to availability",
+        "Zoo remains closed on Thursdays",
+        "Carry warm clothes as temperatures can drop significantly",
+        "Best time to visit is March-May and October-December",
+        "Early morning Tiger Hill visit requires 4 AM start",
+        "Some attractions might be closed during monsoons"
+      ],
+      "contact_methods": {
+        "phone": "+91-9761966485",
+        "email": "intothewildstays@gmail.com",
+        "whatsapp": "+91-9958838557"
+      },
+      "rules_and_policy": [
+        "Check-in time: 12 PM, Check-out time: 11 AM",
+        "Booking confirmation subject to availability",
+        "50% advance payment required for confirmation",
+        "Free cancellation up to 7 days before arrival",
+        "Children below 5 years complimentary without extra bed",
+        "Package modifications possible with prior notice",
+        "Sightseeing schedule may change due to local conditions"
+      ]
+    }
+  ]
+}
