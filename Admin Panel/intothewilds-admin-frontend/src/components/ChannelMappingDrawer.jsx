@@ -1,6 +1,12 @@
 import { useEffect, useMemo, useState } from "react";
 import { ChannelAPI } from "../lib/ChannelApi";
 
+// TODO: the "Preview" action below (see `preview()`) is a mock/stub — it only
+// logs the raw API response to the console and shows an alert telling the
+// admin to check DevTools. Replace with a real preview UI (e.g. a modal
+// rendering the rates/availability payload the OTA would receive) once
+// product decides what that view should look like. Needs no new backend
+// endpoint — GET {VITE_API_BASE}/channels/mappings/:id/preview already exists.
 export default function ChannelMappingDrawer({
   open,
   onClose,
@@ -84,13 +90,13 @@ export default function ChannelMappingDrawer({
   }
 
   async function preview(mappingId) {
-    const res = await fetch(`/api/channels/mappings/${mappingId}/preview`, {
-      credentials: "include",
-    });
-    const json = await res.json();
-    if (!json.ok) return alert(json.message || "Preview failed");
-    console.log("Mock Preview:", json.data);
-    alert("Preview logged in console (open DevTools).");
+    try {
+      const data = await ChannelAPI.previewMapping(mappingId);
+      console.log("Mock Preview:", data);
+      alert("Preview logged in console (open DevTools).");
+    } catch (e) {
+      alert(e?.message || "Preview failed");
+    }
   }
 
   if (!open) return null;

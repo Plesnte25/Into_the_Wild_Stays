@@ -4,6 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>ITW Admin</title>
+    <!--
+      TODO (security follow-up): no Content-Security-Policy is set for this
+      app. The admin auth token is stored in localStorage (readable by any
+      injected script), so a CSP would meaningfully reduce XSS/token-theft
+      risk. Not added yet because it needs an audit of every external
+      resource/script this app actually loads (fonts, analytics, Cloudinary,
+      Razorpay, etc.) first, to avoid breaking the app with an overly strict
+      policy. Recommended next step: enumerate those origins, then add either
+      a <meta http-equiv="Content-Security-Policy"> tag here or (preferably)
+      a CSP response header at the Nginx/reverse-proxy level on the
+      Hostinger deployment.
+    -->
   </head>
   <body>
     <div id="root"></div>

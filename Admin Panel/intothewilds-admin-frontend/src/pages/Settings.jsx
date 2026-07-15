@@ -22,6 +22,16 @@ import CloudinaryPanel from "../components/settings/CloudinaryPanel";
  *   • GET /settings/razorpay/status         (Razorpay panel below)
  *   • GET /api/health                       (System info ping)
  * - All other sections are presentational until their APIs are added.
+ *
+ * TODO: "Admin Profile", "Site Information", and "Business Settings" tabs
+ * (see the activeTab branches below) are read-only placeholders. They need
+ * real backend endpoints before they can be wired up, e.g.:
+ *   - Admin Profile:      GET/PUT /admin/profile (name, email, password change)
+ *   - Site Information:   GET/PUT /settings/site (site name, contact info, SEO)
+ *   - Business Settings:  GET/PUT /settings/business (banking/payout details,
+ *                          invoicing/GST info)
+ * Intentionally left unimplemented pending those endpoints/business
+ * decisions rather than building UI against a fake data source.
  */
 
 function RazorpayPanel() {

@@ -210,7 +210,7 @@ export default function ForgotPassword() {
       if (response.data.success) {
         setSuccess("Password reset successfully! Redirecting to login...");
         setTimeout(() => {
-          navigate("/admin/login");
+          navigate("/login");
         }, 2000);
       }
     } catch (err) {
@@ -563,7 +563,7 @@ export default function ForgotPassword() {
           {/* Back to Login */}
           <div className="mt-6 pt-6 border-t border-gray-200 text-center">
             <Link
-              to="/admin/login"
+              to="/login"
               className="text-teal-600 hover:text-teal-700 font-medium text-sm flex items-center justify-center gap-2"
             >
               <ArrowLeft size={14} />

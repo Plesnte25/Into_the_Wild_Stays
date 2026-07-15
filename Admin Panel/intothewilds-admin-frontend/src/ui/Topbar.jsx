@@ -2,6 +2,15 @@ import { useState } from "react";
 import { useAuth } from "../store/auth.jsx";
 import logo from "../assets/IntotheWildStaysLogo.png";
 
+// TODO: the notifications panel and OTA connection status below are hardcoded
+// mock/placeholder data (`notifications`, `connectedOTAs`, `unreadNotifications`
+// initial value). There is no notifications or channel-status API wired up
+// yet. Replace with real data once the backend exposes:
+//   - a notifications feed/endpoint (e.g. GET /notifications, plus a
+//     mark-as-read mutation) for check-ins, cancellations, status changes;
+//   - live per-channel connection status (e.g. GET /channels/accounts,
+//     see src/lib/ChannelApi.js, already has listAccounts()) instead of the
+//     static connectedOTAs array.
 export default function Topbar() {
   const { user, logout } = useAuth();
   const [showNotifications, setShowNotifications] = useState(false);
@@ -184,7 +193,14 @@ export default function Topbar() {
                 ))}
               </div>
               <div className="p-3 bg-gray-50 border-t">
-                <button className="w-full text-center text-sm text-gray-600 hover:text-gray-800">
+                {/* TODO: no notifications list page/backend exists yet — disabled
+                    rather than left as a dead click target. Wire up to a route
+                    once a full notifications feed is implemented. */}
+                <button
+                  disabled
+                  title="Coming soon — full notifications page not yet implemented"
+                  className="w-full text-center text-sm text-gray-400 cursor-not-allowed"
+                >
                   View All Notifications
                 </button>
               </div>

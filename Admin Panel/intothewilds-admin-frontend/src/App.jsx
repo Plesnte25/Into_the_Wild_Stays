@@ -1,6 +1,7 @@
 import { useEffect } from "react";
-import { Routes, Route, Navigate, Outlet } from "react-router-dom";
+import { Routes, Route, Navigate } from "react-router-dom";
 import { useAuth } from "./store/auth.jsx";
+import ProtectedRoute from "./routes/ProtectedRoute.jsx";
 import AdminLayout from "./layouts/AdminLayout.jsx";
 import Login from "./pages/Login";
 import ForgotPassword from "./pages/ForgotPassword.jsx";
@@ -10,11 +11,6 @@ import Reservations from "./pages/Reservations";
 import Reviews from "./pages/Reviews";
 import Payments from "./pages/Payments";
 import Settings from "./pages/Settings";
-
-function PrivateRoute() {
-  const token = localStorage.getItem("itw_admin_token");
-  return token ? <Outlet /> : <Navigate to="/login" replace />;
-}
 
 export default function App() {
   const { check, loading } = useAuth();
@@ -28,7 +24,7 @@ export default function App() {
     <Routes>
       <Route path="/login" element={<Login />} />
       <Route path="/forgot-password" element={<ForgotPassword />} />
-      <Route element={<PrivateRoute />}>
+      <Route element={<ProtectedRoute />}>
         <Route path="/admin" element={<AdminLayout />}>
           <Route path="dashboard" element={<Dashboard />} />
           <Route path="properties" element={<Properties />} />

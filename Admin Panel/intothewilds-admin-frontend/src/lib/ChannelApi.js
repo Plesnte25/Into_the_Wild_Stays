@@ -1,5 +1,8 @@
 // src/lib/ChannelApi.js
-const BASE = "/api/channels";
+// Respects VITE_API_BASE like the rest of the app's API clients (see
+// src/lib/axios.js, src/lib/api.js) so this doesn't silently break when the
+// API is hosted on a different origin in production.
+const BASE = `${import.meta.env.VITE_API_BASE || "/api"}/channels`;
 
 async function fetchJson(url, options = {}) {
   const res = await fetch(url, {
@@ -56,5 +59,10 @@ export const ChannelAPI = {
       method: "POST",
       body: JSON.stringify({ scope }),
     });
+  },
+
+  // Preview (see TODO in ChannelMappingDrawer.jsx — this is a mock/stub)
+  previewMapping(mappingId) {
+    return fetchJson(`${BASE}/mappings/${mappingId}/preview`);
   },
 };

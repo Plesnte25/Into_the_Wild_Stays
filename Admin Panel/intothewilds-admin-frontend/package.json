@@ -1,7 +1,14 @@
 {
   "name": "intothewilds-admin-frontend",
+  "description": "Back-office admin panel (React + Vite) for Into The Wild Stays — manages properties, bookings, reviews, payments, channel/OTA mappings, and platform settings.",
   "private": true,
   "version": "0.0.1",
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Plesnte25/Into_the_Wild_Stays.git",
+    "directory": "Admin Panel/intothewilds-admin-frontend"
+  },
   "type": "module",
   "scripts": {
     "dev": "vite",

@@ -1,5 +1,6 @@
-export const ADMIN_API =
-  import.meta.env.VITE_API_BASE || "http://localhost:5001/api";
+// Falls back to a relative path so a missing VITE_API_BASE never silently
+// points production builds at a developer's localhost backend.
+export const ADMIN_API = import.meta.env.VITE_API_BASE || "/api";
 
 export const postJSON = async (path, body, opts = {}) => {
   const res = await fetch(`${ADMIN_API}${path}`, {

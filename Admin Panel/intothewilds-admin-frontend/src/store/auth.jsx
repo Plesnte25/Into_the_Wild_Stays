@@ -85,7 +85,9 @@ export function AuthProvider({ children }) {
       setToken("");
       setUser(null);
       // ✅ Hard redirect to login to ensure we actually leave protected routes
-      window.location.replace("/admin/login");
+      // NOTE: canonical login route is "/login" (see src/App.jsx) — the admin
+      // area itself lives under "/admin/*", there is no "/admin/login" route.
+      window.location.replace("/login");
     }
   }, [authedFetch, token]);
 
@@ -118,11 +120,14 @@ export function AuthProvider({ children }) {
   }, [token, check]);
 
   // ✅ Route guard: if we are on any /admin/* path and have no token (or after logout), push to login.
+  // NOTE: this is a redundant hard-reload safety net — <ProtectedRoute> (src/routes/ProtectedRoute.jsx)
+  // is the primary, declarative guard used by the router and does this without a full page reload.
+  // Left in place intentionally as a belt-and-suspenders fallback; candidate for removal later.
   useEffect(() => {
     const onAdminRoute = window.location.pathname.startsWith("/admin");
     if (!loading && onAdminRoute && !token) {
       // Use replace to avoid back-button bouncing
-      window.location.replace("/admin/login");
+      window.location.replace("/login");
     }
   }, [loading, token]);
 
