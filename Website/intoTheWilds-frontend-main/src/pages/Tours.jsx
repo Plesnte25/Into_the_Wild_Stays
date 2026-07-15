@@ -4,7 +4,6 @@ import { MapPin, Clock } from "lucide-react";
 import toursData from "../data/tours.json";
 import { useNavigate } from "react-router-dom";
 import ContactForm from "../components/ContactForm";
-// import BookingButtonTours from "../components/BookingButtonTours";
 import Image3 from "../assets/itw_rep/itwrep_page-0009.jpg";
 import Image4 from "../assets/itw_rep/itwrep_page-0010.jpg";
 import Image5 from "../assets/itw_rep/itwrep_page-0011.jpg";

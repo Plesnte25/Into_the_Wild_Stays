@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import { Mails, Navigation, PhoneCall, Send } from "lucide-react";
-import emailjs from "emailjs-com";
 import { motion } from "framer-motion";
 import axios from "axios";
 import { toast } from "react-toastify";

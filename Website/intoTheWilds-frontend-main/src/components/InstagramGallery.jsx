@@ -9,7 +9,19 @@ import Image4 from "../assets/SunandSandGoa/52PM.jpeg";
 import Image5 from "../assets/itw_rep/itwrep_page-0008.jpg";
 import Image6 from "../assets/goa/goa-ggl.jpg";
 
-// Mock data (updated comments to array of objects)
+// TODO: This component currently renders entirely from `mockProfileData`
+// (hardcoded follower/post counts, bio, static images) instead of a live
+// feed. Wiring up a real Instagram feed needs the Instagram Graph API
+// (a Meta developer app + long-lived access token — a third-party
+// credential/business decision, not made here) and a backend/serverless
+// proxy to refresh that token and avoid exposing it client-side.
+//
+// Note: `mockProfileData.bio` below is rendered via dangerouslySetInnerHTML
+// (see usage further down this file). That's low-risk today because the
+// bio is a static string we control, but once this is swapped for
+// API-sourced data, the bio must be sanitized (e.g. DOMPurify) or the
+// dangerouslySetInnerHTML usage should be removed in favor of safe
+// text/line-break rendering.
 const mockProfileData = {
   username: "intothewildstays",
   fullName: "Into The Wild",

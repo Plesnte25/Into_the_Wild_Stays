@@ -3,7 +3,7 @@ import React, { useEffect, useMemo, useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import dayjs from "dayjs";
 import axios from "axios";
-import { toast } from "react-hot-toast";
+import { toast } from "react-toastify";
 import { BASE_URL } from "../utils/baseurl";
 
 // Helpers
@@ -208,62 +208,6 @@ export default function Checkout() {
         return;
       }
 
-      // If server gave us a Razorpay order, open the checkout; otherwise just route to reservation
-      //   if (order?.id) {
-      //     // @ts-ignore
-      //     const rzp = new window.Razorpay({
-      //       key:
-      //         import.meta.env.VITE_RAZORPAY_KEY_ID || "rzp_live_RTMuJuKtTfafaU",
-      //       amount: order.amount,
-      //       currency: order.currency || "INR",
-      //       name: "IntoTheWild Stays",
-      //       description: `${property?.name || "Reservation"} (${dmy(
-      //         checkin
-      //       )} → ${dmy(checkout)})`,
-      //       order_id: order.id,
-      //       prefill: {
-      //         name: fullName,
-      //         email,
-      //         contact: String(phone || ""),
-      //       },
-      //       notes: { bookingId: bookingId || "", propertyId: property._id },
-      //       theme: { color: "#0b4a6f" },
-      //       handler: async (resp) => {
-      //         try {
-      //           const verify = await axios.post(
-      //             `${BASE_URL}/booking/verify-payment`,
-      //             {
-      //               bookingId,
-      //               razorpay: {
-      //                 order_id: resp.razorpay_order_id,
-      //                 payment_id: resp.razorpay_payment_id,
-      //                 signature: resp.razorpay_signature,
-      //               },
-      //             }
-      //           );
-      //           if (verify?.data?.ok) {
-      //             toast.success("Payment successful! Reservation confirmed.");
-      //             navigate("/reservation", { state: { bookingId } });
-      //           } else {
-      //             toast.error(
-      //               verify?.data?.message || "Payment verification failed."
-      //             );
-      //           }
-      //         } catch (e) {
-      //           console.error(e);
-      //           toast.error("Payment verification failed.");
-      //         }
-      //       },
-      //       modal: {
-      //         ondismiss: () => toast("Payment window closed.", { icon: "ℹ️" }),
-      //       },
-      //     });
-      //     rzp.open();
-      //   } else {
-      //     // No online payment (maybe COD/hold) — still proceed
-      //     toast.success("Booking created.");
-      //     navigate("/reservation", { state: { bookingId } });
-      //   }
       // If server gave us a Razorpay order OR test order, handle accordingly
       if (order?.id) {
         // Check if this is a test order (bypass Razorpay)

@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { X, Send, User, Mail, Phone, MessageSquare } from "lucide-react";
-import emailjs from "emailjs-com";
 import { motion, AnimatePresence } from "framer-motion";
 import axios from "axios";
 import {BASE_URL} from "../utils/baseurl";

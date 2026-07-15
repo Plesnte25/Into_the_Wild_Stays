@@ -3,20 +3,21 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import { AppProvider } from "./context/AppContext";
 import FloatingWhatsappIcon from "./components/FloatingWhatsappIcon";
-import { GoogleOAuthProvider } from "@react-oauth/google";
 import ScrollToTop from "./components/ScrollToTop";
 
+// Note: GoogleOAuthProvider is already provided once, at the root, in
+// main.jsx (driven by VITE_GOOGLE_CLIENT_ID). Do not add another
+// GoogleOAuthProvider here — a nested provider would silently shadow the
+// env-driven one for every component under App.
 function App() {
   return (
     <AppProvider>
       <ScrollToTop />
-      <GoogleOAuthProvider clientId="583840559736-ahcbg2qkaqtmcl34tg8f1m5b1fip0nb3.apps.googleusercontent.com">
-        <Navbar />
-        <div>
-          <Outlet />
-        </div>
-        <Footer />
-      </GoogleOAuthProvider>
+      <Navbar />
+      <div>
+        <Outlet />
+      </div>
+      <Footer />
       <FloatingWhatsappIcon />
     </AppProvider>
   );

@@ -23,7 +23,6 @@ import Imageraghav from "../assets/team/RaghavCycling Instructor.jpg";
 import Imagesonam from "../assets/team/SonamRanaKayakinstructor.jpg";
 import { useState, useEffect } from "react";
 import { Mails, Navigation, PhoneCall, Send, Star } from "lucide-react";
-import emailjs from "emailjs-com";
 import axios from "axios";
 import { toast } from "react-toastify";
 import { BASE_URL } from "../utils/baseurl";

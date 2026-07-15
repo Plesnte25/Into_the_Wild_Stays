@@ -19,9 +19,9 @@ build/
 dist-ssr/
 
 # Local environment
+# .env.example is intentionally NOT ignored — it's a committed template.
 *.local
 .env
-.env.example
 
 # Editor settings
 .vscode/

@@ -1,5 +1,12 @@
 {
-  "name": "my-project",
+  "name": "intothewilds-frontend",
+  "description": "Customer-facing React (Vite) frontend for Into The Wild Stays — property listings, bookings and payments.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Plesnte25/Into_the_Wild_Stays.git",
+    "directory": "Website/intoTheWilds-frontend-main"
+  },
+  "license": "UNLICENSED",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,10 +14,7 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
-    "homepage": "https://github.com/ankitaa19/bug_fixed--react"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@fortawesome/free-brands-svg-icons": "^7.1.0",
@@ -24,7 +28,6 @@
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "dayjs": "^1.11.18",
-    "emailjs-com": "^3.2.0",
     "framer-motion": "^11.11.11",
     "lucide-react": "^0.454.0",
     "prop-types": "^15.8.1",
@@ -49,11 +52,11 @@
     "@types/react": "^18.3.12",
     "@types/react-dom": "^18.3.1",
     "@vitejs/plugin-react": "^4.3.3",
+    "autoprefixer": "^10.4.21",
     "eslint": "^9.13.0",
     "eslint-plugin-react": "^7.37.2",
     "eslint-plugin-react-hooks": "^5.0.0",
     "eslint-plugin-react-refresh": "^0.4.14",
-    "gh-pages": "^6.3.0",
     "globals": "^15.11.0",
     "tailwindcss": "^3.4.14",
     "vite": "^6.3.5"
