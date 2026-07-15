@@ -17,7 +17,7 @@ const requireSelfOrAdmin = (req, res, next) => {
 // Route to edit user
 router.put('/edit/:id', authenticateToken, requireSelfOrAdmin, userController.editUser);
 //get user by id
-router.get('/:id', authenticateToken, userController.getUser);
+router.get('/:id', authenticateToken, requireSelfOrAdmin, userController.getUser);
 router.delete('/:id', authenticateToken, requireSelfOrAdmin, userController.deleteUser);
 
 module.exports = router;

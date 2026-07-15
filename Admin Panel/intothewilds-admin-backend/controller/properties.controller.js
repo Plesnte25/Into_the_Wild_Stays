@@ -122,6 +122,7 @@ export const togglePropertyStatus = async (req, res) => {
   try {
     const { id } = req.params;
     const property = await Property.findById(id);
+    if (!property) return res.status(404).json({ message: "Property not found" });
     property.paused = !property.paused;
     await property.save();
     res.json(property);
@@ -136,6 +137,7 @@ export const addSeasonalPricing = async (req, res) => {
     const { id } = req.params;
     const { startDate, endDate, price } = req.body;
     const property = await Property.findById(id);
+    if (!property) return res.status(404).json({ message: "Property not found" });
     property.seasonalPricing.push({ startDate, endDate, price });
     await property.save();
     res.json(property);

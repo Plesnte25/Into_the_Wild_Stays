@@ -161,11 +161,15 @@ const Review = () => {
         image: formData.image
       };
 
+      const authHeaders = {
+        headers: { authorization: `Bearer ${localStorage.getItem("token")}` },
+      };
+
       if (formData.reviewId) {
-        await axios.put(`${BASE_URL}/reviews/${formData.reviewId}`, reviewPayload);
+        await axios.put(`${BASE_URL}/reviews/${formData.reviewId}`, reviewPayload, authHeaders);
         toast.success("Review updated successfully");
       } else {
-        await axios.post(`${BASE_URL}/reviews/`, reviewPayload);
+        await axios.post(`${BASE_URL}/reviews/`, reviewPayload, authHeaders);
         toast.success("Review submitted successfully");
       }
 

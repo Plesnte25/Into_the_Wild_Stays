@@ -1,6 +1,6 @@
 const router = require('express').Router();
 const reviewController = require('../controller/reviewController.js');
-const { authenticateToken, authorizeRole } = require('../middleware/authMiddleware');
+const { authenticateToken } = require('../middleware/authMiddleware');
 
 // Get all reviews
 router.get('/', reviewController.getAllReviews);
@@ -20,9 +20,9 @@ router.get('/review/:id', reviewController.getReviewById);
 // Create a review — must be a logged-in user.
 router.post('/', authenticateToken, reviewController.createReview);
 
-// Update / delete a review — moderation actions, admin only (no
-// ownership-tracking exists yet to safely allow "review author only").
-router.put('/:id', authenticateToken, authorizeRole('admin'), reviewController.updateReview);
-router.delete('/:id', authenticateToken, authorizeRole('admin'), reviewController.deleteReview);
+// Update / delete a review — the author (createReview binds `user` from the
+// JWT) or an admin may do this; ownership is checked inside the controller.
+router.put('/:id', authenticateToken, reviewController.updateReview);
+router.delete('/:id', authenticateToken, reviewController.deleteReview);
 
 module.exports = router;

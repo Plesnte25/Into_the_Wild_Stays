@@ -13,11 +13,18 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        app:
-          - "Website/intothewilds-backend-main"
-          - "Website/intoTheWilds-frontend-main"
-          - "Admin Panel/intothewilds-admin-backend"
-          - "Admin Panel/intothewilds-admin-frontend"
+        include:
+          # Backends have no bundling step — "npm run build" in these two
+          # apps is repurposed for an admin-seeding script, not a build, so
+          # it must NOT be run here (see KNOWN_ISSUES.md).
+          - app: "Website/intothewilds-backend-main"
+            hasBuild: false
+          - app: "Website/intoTheWilds-frontend-main"
+            hasBuild: true
+          - app: "Admin Panel/intothewilds-admin-backend"
+            hasBuild: false
+          - app: "Admin Panel/intothewilds-admin-frontend"
+            hasBuild: true
     defaults:
       run:
         working-directory: ${{ matrix.app }}
@@ -36,5 +43,6 @@ jobs:
       - name: Lint (if configured)
         run: npm run lint --if-present
 
-      - name: Build (if configured)
+      - name: Build (frontends only)
+        if: matrix.hasBuild
         run: npm run build --if-present

@@ -21,6 +21,18 @@ const checkoutRoutes = require("./routes/checkoutRoutes");
 
 dotenv.config();
 
+// --- REQUIRED ENV VARS (fail fast rather than booting into a broken state) ---
+const REQUIRED_ENV_VARS = ["MONGO_URI", "JWT_SECRET"];
+const missingEnv = REQUIRED_ENV_VARS.filter((k) => !process.env[k]);
+if (missingEnv.length) {
+  console.error(
+    `❌ Missing required environment variable(s): ${missingEnv.join(
+      ", "
+    )}. See .env.example.`
+  );
+  process.exit(1);
+}
+
 const app = express();
 app.use(helmet());
 app.use(express.json({ limit: "2mb" }));

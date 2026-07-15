@@ -116,31 +116,41 @@ exports.getReviewById = async (req, res) => {
   }
 };
 
-// Update a review
+// Update a review — the author (createReview binds `user` from the JWT) or
+// an admin may edit it.
 exports.updateReview = async (req, res) => {
   try {
     const { id } = req.params;
     const { rating, comment, image, stayedAt } = req.body;
+    const requesterId = req.user && (req.user.id || req.user.userId);
 
-    const review = await Review.findByIdAndUpdate(
-      id,
-      { rating, comment, image, stayedAt },
-      { new: true }
-    );
+    const existing = await Review.findById(id);
+    if (!existing) return res.status(404).json({ error: 'Review not found.' });
+    if (req.user.role !== 'admin' && existing.user.toString() !== requesterId) {
+      return res.status(403).json({ error: 'You can only edit your own review.' });
+    }
 
-    if (!review) return res.status(404).json({ error: 'Review not found.' });
+    existing.set({ rating, comment, image, stayedAt });
+    const review = await existing.save();
     res.status(200).json({ success: true, review });
   } catch (err) {
     res.status(500).json({ error: err.message });
   }
 };
 
-// Delete a review
+// Delete a review — the author or an admin may delete it.
 exports.deleteReview = async (req, res) => {
   try {
     const { id } = req.params;
-    const review = await Review.findByIdAndDelete(id);
-    if (!review) return res.status(404).json({ error: 'Review not found.' });
+    const requesterId = req.user && (req.user.id || req.user.userId);
+
+    const existing = await Review.findById(id);
+    if (!existing) return res.status(404).json({ error: 'Review not found.' });
+    if (req.user.role !== 'admin' && existing.user.toString() !== requesterId) {
+      return res.status(403).json({ error: 'You can only delete your own review.' });
+    }
+
+    await existing.deleteOne();
     res.status(200).json({ success: true, message: 'Review deleted successfully!' });
   } catch (err) {
     res.status(500).json({ error: err.message });
