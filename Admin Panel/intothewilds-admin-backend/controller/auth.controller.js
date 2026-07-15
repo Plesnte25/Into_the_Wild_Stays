@@ -33,7 +33,6 @@ export async function login(req, res, next) {
       httpOnly: true,
       secure: !!process.env.COOKIE_SECURE,
       sameSite: "lax",
-      secure: false,
       maxAge: 7 * 24 * 60 * 60 * 1000,
     });
 
@@ -202,11 +201,9 @@ export async function forgotPassword(req, res, next) {
     const user = await User.findOne({ email: email?.toLowerCase() });
     if (!user) return res.status(204).end(); // do not leak
 
-    const token = jwt.sign(
-      { sub: user.id },
-      process.env.RESET_TOKEN_SECRET || "reset_secret",
-      { expiresIn: "15m" }
-    );
+    const token = jwt.sign({ sub: user.id }, process.env.JWT_RESET_SECRET, {
+      expiresIn: "15m",
+    });
     const resetUrl = `${
       process.env.FRONTEND_URL || "http://localhost:5174"
     }/reset?token=${token}`;
@@ -225,10 +222,7 @@ export async function forgotPassword(req, res, next) {
 export async function resetPasswordWithToken(req, res, next) {
   try {
     const { token, password } = req.body;
-    const payload = jwt.verify(
-      token,
-      process.env.RESET_TOKEN_SECRET || "reset_secret"
-    );
+    const payload = jwt.verify(token, process.env.JWT_RESET_SECRET);
     const user = await User.findById(payload.sub);
     if (!user) return res.status(404).json({ message: "User not found" });
 

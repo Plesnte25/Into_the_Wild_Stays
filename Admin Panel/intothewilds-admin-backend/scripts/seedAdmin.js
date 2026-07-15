@@ -3,9 +3,11 @@ import mongoose from "mongoose";
 import bcrypt from "bcryptjs";
 import User from "../models/User.js";
 
-const MONGO_URI =
-  process.env.MONGO_URI ||
-  "mongodb+srv://intothewildstays:5xopzIkh6cFpTynT@cluster0.q3utk.mongodb.net/itw?retryWrites=true&w=majority&appName=Cluster0";
+const MONGO_URI = process.env.MONGO_URI;
+if (!MONGO_URI) {
+  console.error("MONGO_URI is required (set it in your .env file).");
+  process.exit(1);
+}
 
 async function run() {
   await mongoose.connect(MONGO_URI);

@@ -1,7 +1,10 @@
 import Booking from "../models/Booking.js";
 import Payment from "../models/Payment.js";
 
-const coalesceAmount = {
+// Exported so other modules (e.g. bookings.controller.js) can reuse the same
+// coalescing/aggregation helpers instead of redefining (or forgetting to
+// define) their own copies.
+export const coalesceAmount = {
   $cond: [
     { $gt: ["$price.netReceivable", null] },
     "$price.netReceivable",
@@ -9,15 +12,15 @@ const coalesceAmount = {
   ],
 };
 
-const coalesceCheckIn = {
+export const coalesceCheckIn = {
   $cond: [{ $gt: ["$stay.checkIn", null] }, "$stay.checkIn", "$checkInDate"],
 };
 
-const coalesceCheckOut = {
+export const coalesceCheckOut = {
   $cond: [{ $gt: ["$stay.checkOut", null] }, "$stay.checkOut", "$checkOutDate"],
 };
 
-function between(from, to) {
+export function between(from, to) {
   return { $gte: from, $lte: to };
 }
 

@@ -1,12 +1,23 @@
 // auth.routes.js (ESM)
 import { Router } from "express";
+import rateLimit from "express-rate-limit";
 import * as Auth from "../controller/auth.controller.js";
 import { requireAuth } from "../middleware/auth.js";
 
 const router = Router();
 
+// Brute-force protection on login (separate from the public.routes.js
+// in-memory limiter — this one is IP-based via express-rate-limit).
+const loginLimiter = rateLimit({
+  windowMs: 15 * 60 * 1000, // 15 minutes
+  max: 10, // 10 attempts per IP per window
+  standardHeaders: true,
+  legacyHeaders: false,
+  message: { message: "Too many login attempts. Please try again later." },
+});
+
 // Session
-router.post("/login", Auth.login);
+router.post("/login", loginLimiter, Auth.login);
 router.get("/me", requireAuth, Auth.me);
 router.post("/refresh", Auth.refresh);
 router.post("/logout", Auth.logout);

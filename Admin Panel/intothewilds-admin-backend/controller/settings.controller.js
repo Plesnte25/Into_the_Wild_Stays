@@ -6,6 +6,7 @@ import User from "../models/User.js";
 import {
   uploadLogoBuffer,
   getCloudinaryStatsSafely,
+  buildSignedParams,
 } from "../services/cloudinary.service.js";
 
 // ---------- helpers ----------

@@ -22,15 +22,43 @@ import "./jobs/syncQueue.js";
 import { notFound, errorHandler } from "./middleware/error.js";
 
 dotenv.config();
+
+// --- REQUIRED ENV VARS (fail fast rather than booting into a broken state) ---
+const REQUIRED_ENV_VARS = [
+  "MONGO_URI",
+  "JWT_SECRET",
+  "JWT_REFRESH_SECRET",
+  "JWT_RESET_SECRET",
+];
+const missingEnv = REQUIRED_ENV_VARS.filter((k) => !process.env[k]);
+if (missingEnv.length) {
+  console.error(
+    `❌ Missing required environment variable(s): ${missingEnv.join(
+      ", "
+    )}. See .env.example.`
+  );
+  process.exit(1);
+}
+
 import { initCloudinary } from "./services/cloudinary.service.js";
 initCloudinary();
 const app = express();
 
+// Comma-separated list of allowed admin-frontend origins (same CORS_ORIGINS
+// convention used by the sibling website backend), e.g.
+// "http://localhost:5173,https://admin.intothewildstays.in"
+const ALLOWED_ORIGINS = (process.env.CORS_ORIGINS || "http://localhost:5173")
+  .split(",")
+  .map((s) => s.trim())
+  .filter(Boolean);
+
 app.use(
   cors({
-    origin: [
-      "http://localhost:5173", // Vite dev
-    ].filter(Boolean),
+    origin(origin, cb) {
+      // allow non-browser tools (no Origin header) and configured origins
+      if (!origin || ALLOWED_ORIGINS.includes(origin)) return cb(null, true);
+      return cb(new Error(`CORS: ${origin} not allowed`), false);
+    },
     credentials: true,
     allowedHeaders: ["Content-Type", "Authorization"],
     methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],

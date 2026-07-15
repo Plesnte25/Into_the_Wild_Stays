@@ -6,9 +6,11 @@ import { uploadBuffer } from "../services/cloudinary.service.js";
 // Adjust this import to your actual Property model path
 import Property from "../models/Property.js";
 
-const MONGO_URI =
-  process.env.MONGO_URI ||
-  "mongodb+srv://intothewildstays:5xopzIkh6cFpTynT@cluster0.q3utk.mongodb.net/itw?retryWrites=true&w=majority&appName=Cluster0";
+const MONGO_URI = process.env.MONGO_URI;
+if (!MONGO_URI) {
+  console.error("MONGO_URI is required (set it in your .env file).");
+  process.exit(1);
+}
 const IBB_HOSTS = ["i.ibb.co", "ibb.co", "imgbb.com"];
 
 function isIbbUrl(url = "") {

@@ -99,6 +99,12 @@ export const remove = async (req, res) => {
 };
 
 // 🟡 Upload images
+// TODO: not wired into routes/properties.routes.js — this handler expects
+// `req.files.image.tempFilePath`, which requires the `express-fileupload`
+// middleware. The rest of this app uploads via multer + Cloudinary buffer
+// streaming instead (see middleware/upload.js, services/cloudinary.service.js).
+// Adding express-fileupload alongside multer risks double-parsing multipart
+// bodies. Rewrite this to use uploadBuffer()/multer before wiring it up.
 export const uploadPropertyImage = async (req, res) => {
   try {
     const file = req.files.image; // Using express-fileupload or multer

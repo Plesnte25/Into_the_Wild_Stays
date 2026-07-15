@@ -26,6 +26,21 @@ router.delete("/:id", C.remove);
 
 // images maintenance
 router.put("/:id/images", C.updateImages);
+router.post("/:id/images", C.saveImages); // same-length-array validated variant
 router.delete("/:id/images", C.deleteImage);
+
+// status / pricing maintenance
+router.patch("/:id/toggle-status", C.togglePropertyStatus);
+router.post("/:id/seasonal-pricing", C.addSeasonalPricing);
+
+// NOTE: C.uploadPropertyImage is intentionally NOT wired here. It expects
+// `req.files.image` with a `tempFilePath` (the express-fileupload contract),
+// but this app's multipart uploads go through multer (see middleware/upload.js
+// and services/cloudinary.service.js#uploadBuffer / #uploadLogoBuffer) —
+// mixing express-fileupload into the same app would conflict with the
+// existing multer body-parsing on other routes. Property image uploads
+// should go through the existing multer + Cloudinary buffer-upload flow
+// (mirroring routes/media.routes.js or routes/settings.routes.js's
+// "/site/logo" upload) instead of wiring this function as-is.
 
 export default router;

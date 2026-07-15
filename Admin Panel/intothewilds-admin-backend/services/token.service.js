@@ -6,19 +6,15 @@ export function signAccessToken(payload) {
   });
 }
 
+// JWT_REFRESH_SECRET is required and validated at startup (see server.js) —
+// no derived/implicit fallback, so a missing env var fails loudly instead of
+// silently signing tokens with a guessable secret.
 export function signRefreshToken(payload) {
-  return jwt.sign(
-    payload,
-    process.env.REFRESH_TOKEN_SECRET || process.env.JWT_SECRET + "_r",
-    {
-      expiresIn: process.env.REFRESH_TOKEN_EXPIRES_IN || "7d",
-    }
-  );
+  return jwt.sign(payload, process.env.JWT_REFRESH_SECRET, {
+    expiresIn: process.env.REFRESH_TOKEN_EXPIRES_IN || "7d",
+  });
 }
 
 export function verifyRefresh(token) {
-  return jwt.verify(
-    token,
-    process.env.REFRESH_TOKEN_SECRET || process.env.JWT_SECRET + "_r"
-  );
+  return jwt.verify(token, process.env.JWT_REFRESH_SECRET);
 }

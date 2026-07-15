@@ -1,16 +1,16 @@
+// Uses ioredis (already a project dependency, and the client bullmq expects
+// too — see KNOWN_ISSUES.md) when REDIS_URL is set; otherwise falls back to
+// an in-memory Map so single-instance/dev deployments keep working.
 let client = null;
 let mem = new Map();
 
 const url = process.env.REDIS_URL;
 
 if (url) {
-  const { createClient } = await import("redis");
-  client = createClient({ url });
+  const { default: Redis } = await import("ioredis");
+  client = new Redis(url);
   client.on("error", (e) => console.warn("Redis error", e.message));
-  client
-    .connect()
-    .then(() => console.log("Redis connected"))
-    .catch(() => {});
+  client.on("connect", () => console.log("Redis connected"));
 }
 
 export async function getCache(key) {
@@ -23,7 +23,7 @@ export async function getCache(key) {
 
 export async function setCache(key, value, ttlSec = 300) {
   if (client) {
-    await client.set(key, JSON.stringify(value), { EX: ttlSec });
+    await client.set(key, JSON.stringify(value), "EX", ttlSec);
     return;
   }
   mem.set(key, value);

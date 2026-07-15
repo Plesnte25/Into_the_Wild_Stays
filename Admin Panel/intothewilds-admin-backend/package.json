@@ -1,18 +1,33 @@
 {
   "name": "intothewilds-admin-backend",
   "version": "1.0.0",
+  "description": "Back-office admin API for Into The Wild Stays — manages bookings, properties, pricing, reviews, payments, media, channel/OTA sync, and analytics for the hospitality booking platform.",
   "type": "module",
   "main": "server.js",
+  "engines": {
+    "node": ">=18.18.0"
+  },
   "scripts": {
     "dev": "nodemon server.js",
     "start": "node server.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "intothewildstays",
+    "admin",
+    "hospitality",
+    "booking"
+  ],
+  "author": "Into The Wild Stays",
+  "license": "UNLICENSED",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Plesnte25/Into_the_Wild_Stays.git",
+    "directory": "Admin Panel/intothewilds-admin-backend"
+  },
   "dependencies": {
     "axios": "^1.12.2",
-    "bcrypt": "^6.0.0",
+    "bcryptjs": "^2.4.3",
     "bullmq": "^5.61.0",
     "cloudinary": "^1.41.3",
     "cookie-parser": "^1.4.7",
@@ -21,6 +36,7 @@
     "dotenv": "^17.2.3",
     "express": "^5.1.0",
     "express-async-handler": "^1.2.0",
+    "express-rate-limit": "^7.4.1",
     "helmet": "^8.1.0",
     "ioredis": "^5.8.2",
     "joi": "^18.0.1",
@@ -30,6 +46,7 @@
     "multer": "^2.0.2",
     "multer-storage-cloudinary": "^4.0.0",
     "nanoid": "^5.1.6",
+    "node-fetch": "^3.3.2",
     "node-ical": "^0.22.0",
     "nodemailer": "^7.0.9",
     "pdfkit": "^0.17.2",

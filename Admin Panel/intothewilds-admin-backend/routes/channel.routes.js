@@ -1,4 +1,6 @@
 import { Router } from "express";
+import { requireAuth } from "../middleware/auth.js";
+import { requireRole } from "../middleware/role.js";
 import {
   listAccounts,
   createAccount,
@@ -11,6 +13,11 @@ import {
 import { previewMapping } from "../controller/channel.controller.js";
 
 const r = Router();
+
+// These routes expose OTA account credentials (hotelCode/accessToken) and
+// trigger live syncs, so they must be admin-authenticated like every other
+// admin route.
+r.use(requireAuth, requireRole("admin"));
 
 r.get("/accounts", listAccounts);
 r.post("/accounts", createAccount);

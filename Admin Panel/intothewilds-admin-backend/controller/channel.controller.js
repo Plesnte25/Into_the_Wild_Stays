@@ -197,7 +197,7 @@ export async function previewMapping(req, res) {
     });
   }
 
-  const adapter = getChannelAdapter2(mapping.provider, mapping.account);
+  const adapter = getChannelAdapter(mapping.provider, mapping.account);
   const debug = await adapter.debugState(); // { ok, data: state }
   res.json({ ok: true, data: debug?.data || {} });
 }
