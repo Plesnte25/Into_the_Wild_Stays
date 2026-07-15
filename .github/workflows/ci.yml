@@ -1,0 +1,40 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build-and-lint:
+    name: ${{ matrix.app }}
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        app:
+          - "Website/intothewilds-backend-main"
+          - "Website/intoTheWilds-frontend-main"
+          - "Admin Panel/intothewilds-admin-backend"
+          - "Admin Panel/intothewilds-admin-frontend"
+    defaults:
+      run:
+        working-directory: ${{ matrix.app }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+          cache-dependency-path: ${{ matrix.app }}/package-lock.json
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Lint (if configured)
+        run: npm run lint --if-present
+
+      - name: Build (if configured)
+        run: npm run build --if-present
