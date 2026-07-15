@@ -4,23 +4,35 @@
   "engines": {
     "node": ">=20.x"
   },
-  "description": "",
+  "description": "Customer-facing booking/hospitality backend for Into The Wild Stays (Express + MongoDB API).",
   "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Plesnte25/Into_the_Wild_Stays.git",
+    "directory": "Website/intothewilds-backend-main"
+  },
   "scripts": {
     "start": "node server.js",
+    "dev": "node --watch server.js",
     "seed:admin": "node scripts/seedAdmin.js",
-    "build": "npm run seed:admin"
+    "seed:inventory": "node scripts/seedInventory.js",
+    "build": "npm run seed:admin",
+    "test": "echo \"No automated test suite yet - see KNOWN_ISSUES.md\" && exit 0"
   },
   "author": "",
-  "license": "ISC",
+  "license": "UNLICENSED",
+  "private": true,
   "dependencies": {
     "axios": "^1.7.9",
     "bcryptjs": "^2.4.3",
+    "cloudinary": "^2.5.1",
+    "cookie-parser": "^1.4.7",
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
     "express": "^4.21.1",
     "express-rate-limit": "^7.4.1",
     "google-auth-library": "^10.1.0",
+    "helmet": "^8.0.0",
     "jsonwebtoken": "^9.0.2",
     "moment": "^2.30.1",
     "mongoose": "^8.8.2",

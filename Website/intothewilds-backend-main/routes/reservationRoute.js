@@ -1,4 +1,13 @@
 // intothewilds-backend-main/routes/reservationRoute.js
+//
+// TODO(unfinished): This router is NOT mounted in server.js — the
+// reservations feature is unreachable over HTTP. controller/reservationController.js
+// exports getUserBookings/updateBooking/getByRange, none of which match the
+// listReservations/getReservation/createReservation names this file looks
+// for, so every route below currently falls through to the `ok`/`notImpl`
+// stubs. To finish this feature: decide on the real controller API, wire
+// auth middleware (list/detail probably need at least authenticateToken),
+// and mount it in server.js. See KNOWN_ISSUES.md for more.
 const express = require("express");
 const router = express.Router();
 

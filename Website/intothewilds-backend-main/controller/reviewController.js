@@ -34,7 +34,11 @@ exports.getLatestReviews = async (req, res) => {
 // Create a new review
 exports.createReview = async (req, res) => {
   try {
-    const { user, comment, property, rating, image, booking, stayedAt } = req.body;
+    const { comment, property, rating, image, booking, stayedAt } = req.body;
+    // Bind the review to the authenticated caller rather than trusting a
+    // client-supplied `user` field — otherwise anyone could post a review
+    // "as" another user.
+    const user = req.user && (req.user.id || req.user.userId);
 
     const userExists = await User.findById(user);
     if (!userExists) return res.status(400).json({ error: 'User not found.' });

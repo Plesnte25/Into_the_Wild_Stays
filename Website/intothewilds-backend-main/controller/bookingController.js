@@ -25,10 +25,9 @@ function calcRoomsNeeded(adults, children) {
   return Math.max(1, Math.max(roomByAdults, roomByChildren));
 }
 
-// const razorpay = new Razorpay({
-//   key_id: process.env.RAZORPAY_KEY_ID || "rzp_live_RTMuJuKtTfafaU",
-//   key_secret: process.env.RAZORPAY_KEY_SECRET || "RUjO6lObvSv9y3mao1271dKD",
-// });
+// TODO(payments): real Razorpay order creation is intentionally stubbed out
+// below — see the comment block inside newBooking() and KNOWN_ISSUES.md for
+// what's needed to wire up live payments.
 
 exports.newBooking = async (req, res) => {
   try {
@@ -77,51 +76,44 @@ exports.newBooking = async (req, res) => {
     const payPercent = Number(payNowPercent ?? 20); // default 20%
     const amountToPay = Math.round((total * payPercent) / 100);
 
-    // ---- Razorpay (optional, test-friendly)
+    // ---- Razorpay order creation — STUBBED, NOT LIVE.
+    // This always returns a fake local "order_test_*" id instead of calling
+    // the Razorpay API, so no real payment is ever taken. To go live:
+    //   1. Set RAZORPAY_KEY_ID / RAZORPAY_KEY_SECRET in the environment.
+    //   2. Replace this block with a real
+    //      `new Razorpay({ key_id, key_secret }).orders.create(...)` call.
+    //   3. Verify the payment signature on the confirmation endpoint before
+    //      marking the booking "paid".
+    // See KNOWN_ISSUES.md for details.
     let order = {
       id: `order_test_${Date.now()}`,
       amount: amountToPay * 100,
       currency: "INR",
       status: "created",
     };
-    // const haveRzp =
-    //   process.env.RAZORPAY_KEY_ID && process.env.RAZORPAY_KEY_SECRET;
-    // if (haveRzp) {
-    //   const razorpay = new Razorpay({
-    //     key_id: process.env.RAZORPAY_KEY_ID,
-    //     key_secret: process.env.RAZORPAY_KEY_SECRET,
-    //   });
-    //   order = await razorpay.orders.create({
-    //     amount: amountToPay * 100, // paise
-    //     currency: "INR",
-    //     receipt: `itw_${Date.now().toString(36)}`,
-    //   });
-    // } else {
-    //   // Test stub so dev flow doesn't crash
-    //   order = {
-    //     id: `order_test_${Date.now()}`,
-    //     amount: amountToPay * 100,
-    //     currency: "INR",
-    //     status: "created",
-    //   };
-    // }
 
     // ---- Persist booking (status=pending)
+    // Field names below must match models/Booking.js exactly — Mongoose
+    // silently drops any path that isn't declared on the schema, so a
+    // mismatch here means the data looks fine in the response but never
+    // actually gets saved.
     const booking = await Booking.create({
       property: propertyId,
-      checkIn: asDateOnly(checkIn), // ✅ Fixed: Use asDateOnly function
-      checkOut: asDateOnly(checkOut), // ✅ Fixed: Use asDateOnly function
+      checkIn: asDateOnly(checkIn),
+      checkOut: asDateOnly(checkOut),
       adults,
       children,
       rooms: roomsNeeded,
-      priceNight: nightly,
-      subtotal,
-      tax,
-      total,
-      payPercent,
-      amountToPay,
-      customer: { name, email, phone },
-      razorpayOrderId: order.id,
+      nights,
+      customer: { fullName: name, email, phone },
+      pricing: {
+        perNight: nightly,
+        subTotal: subtotal,
+        tax,
+        grand: total,
+        payNow: amountToPay,
+      },
+      orderId: order.id,
       status: "pending",
     });
 

@@ -20,58 +20,73 @@ const getPropertyById = async (req, res) => {
 };
 
 const editProperty = async (req, res) => {
-    const { id } = req.params;
-    const { name, price, guestCapacity, maximumCapacity } = req.body;
-    const property = await Properties.findByIdAndUpdate(id, { name, price, guestCapacity, maximumCapacity });
-    res.status(200).json({ message: "Property updated successfully", property: property });
+    try {
+        const { id } = req.params;
+        const { name, price, guestCapacity, maximumCapacity } = req.body;
+        const property = await Properties.findByIdAndUpdate(
+            id,
+            { name, price, guestCapacity, maximumCapacity },
+            { new: true, runValidators: true }
+        );
+        if (!property) {
+            return res.status(404).json({ message: "Property not found" });
+        }
+        res.status(200).json({ message: "Property updated successfully", property: property });
+    } catch (error) {
+        res.status(500).json({ message: error.message });
+    }
 };
 
 
 const addProperty = async (req, res) => {
-    const { name,
-        price,
-        guestCapacity,
-        maximumCapacity,
-        images,
-        amenities,
-        bookingPolicies,
-        cancellationPolicies,
-        faqs,
-        tags,
-        location,
-        address,
-        rating,
-        reviews,
-        numberOfCottages,
-        locationLink,
-        description } = req.body;
-    const numberguestCapacity = Number(guestCapacity);
-    const numbermaximumCapacity = Number(maximumCapacity);
-    const numbernumberOfCottages = Number(numberOfCottages);
-    const numberrating = Number(rating);
-    const numberreviews = Number(reviews);
-    const numberprice = Number(price);
-    const property = new Properties({
-        name,
-        price: numberprice,
-        guestCapacity: numberguestCapacity,
-        maximumCapacity: numbermaximumCapacity,
-        images,
-        amenities,
-        bookingPolicies,
-        cancellationPolicies,
-        faqs,
-        tags,
-        location,
-        address,
-        rating: numberrating,
-        reviews: numberreviews,
-        bedroom: numbernumberOfCottages,
-        locationLink,
-        description
-    });
-    await property.save();
-    res.status(200).json({ message: "Property added successfully", property: property });
+    try {
+        const { name,
+            price,
+            guestCapacity,
+            maximumCapacity,
+            images,
+            amenities,
+            bookingPolicies,
+            cancellationPolicies,
+            faqs,
+            tags,
+            location,
+            address,
+            rating,
+            reviews,
+            numberOfCottages,
+            locationLink,
+            description } = req.body;
+        const numberguestCapacity = Number(guestCapacity);
+        const numbermaximumCapacity = Number(maximumCapacity);
+        const numbernumberOfCottages = Number(numberOfCottages);
+        const numberrating = Number(rating);
+        const numberreviews = Number(reviews);
+        const numberprice = Number(price);
+        const property = new Properties({
+            name,
+            price: numberprice,
+            guestCapacity: numberguestCapacity,
+            maximumCapacity: numbermaximumCapacity,
+            images,
+            amenities,
+            bookingPolicies,
+            cancellationPolicies,
+            faqs,
+            tags,
+            location,
+            address,
+            rating: numberrating,
+            reviews: numberreviews,
+            bedroom: numbernumberOfCottages,
+            locationLink,
+            description
+        });
+        await property.save();
+        res.status(200).json({ message: "Property added successfully", property: property });
+    } catch (error) {
+        res.status(500).json({ message: error.message });
+    }
 };
 
 

@@ -2,7 +2,7 @@ const nodemailer = require("nodemailer");
 
 const transporter = nodemailer.createTransport({
   service: "gmail",
-  auth: { user: process.env.SENDER_EMAIL, pass: process.env.SENDER_PASS },
+  auth: { user: process.env.EMAIL_USER, pass: process.env.EMAIL_PASS },
 });
 
 exports.sendBookingEmail = async (booking) => {
@@ -20,7 +20,7 @@ exports.sendBookingEmail = async (booking) => {
   `;
   await transporter.sendMail({
     to: booking.customer.email,
-    from: `"Into The Wilds" <${process.env.SENDER_EMAIL}>`,
+    from: `"Into The Wilds" <${process.env.EMAIL_USER}>`,
     subject: "Your booking is confirmed",
     html,
   });

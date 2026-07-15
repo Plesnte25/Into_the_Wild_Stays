@@ -1,41 +1,36 @@
-// intothewilds-backend-main/routes/authRoutes.js     ▼ ADD
-// router.post("/debug-login", async (req, res) => {
-//   const { emailorphone, password } = req.body;
-//   const User = (await import("../models/User.js")).default;
-
-//   // same logic you use in login()
-//   const criteria = [
-//     { username: emailorphone.toLowerCase() },
-//     { email: emailorphone.toLowerCase() },
-//     { phone: Number(emailorphone) || -1 },
-//   ];
-
-//   const user = await User.findOne({ $or: criteria }).select("+password");
-
-//   return res.json({
-//     received: { emailorphone, password },
-//     query: { $or: criteria },
-//     userFound: !!user,
-//     userDoc: user,
-//   });
-// });
-
-
 // server/routes/authRoutes.js
 const express = require('express');
+const rateLimit = require('express-rate-limit');
 const router = express.Router();
-const authController = require('../controller/authController')
+const authController = require('../controller/authController');
+const { authenticateToken, authorizeRole } = require('../middleware/authMiddleware');
 
+// Tighter throttle than the global limiter — these endpoints are the
+// classic brute-force / credential-stuffing / OTP-spam targets.
+const authLimiter = rateLimit({
+  windowMs: 15 * 60 * 1000, // 15 minutes
+  max: 20, // 20 attempts per IP per window
+  standardHeaders: true,
+  legacyHeaders: false,
+  message: 'Too many auth attempts from this IP, please try again after 15 minutes',
+});
 
 // Register Route
-router.post('/register',authController.register);
-router.post('/google',authController.googleSignup);
+router.post('/register', authLimiter, authController.register);
+router.post('/google', authLimiter, authController.googleSignup);
 
 // Login Route
-router.post('/login', authController.login);
+router.post('/login', authLimiter, authController.login);
 
 // verify email
-router.post('/verify-email', authController.verifyEmail);
-router.get('/getAllUsers',authController.getAllUsers);
+router.post('/verify-email', authLimiter, authController.verifyEmail);
+
+// Admin-only: lists every user in the system.
+router.get(
+  '/getAllUsers',
+  authenticateToken,
+  authorizeRole('admin'),
+  authController.getAllUsers
+);
 
 module.exports = router;

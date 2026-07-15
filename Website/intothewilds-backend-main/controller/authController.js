@@ -1,5 +1,6 @@
 const jwt = require("jsonwebtoken");
 const nodemailer = require("nodemailer");
+const crypto = require("crypto");
 const User = require("../models/User");
 require("dotenv").config();
 const { OAuth2Client } = require("google-auth-library");
@@ -30,6 +31,30 @@ const generateOTP = () => {
   return Math.floor(100000 + Math.random() * 900000).toString();
 };
 
+// Strip a leading India country code so we send bare 10-digit numbers to fast2sms
+const formatContactNumber = (contactNumber) => {
+  if (!contactNumber) return contactNumber;
+  if (contactNumber.startsWith("+91")) {
+    return contactNumber.slice(3); // Remove +91
+  }
+  return contactNumber;
+};
+
+// The `username` field is required + unique on the User model, but our signup
+// flow only collects email/phone + name. Derive a slug from whichever
+// identifier we have and disambiguate with a short random suffix so
+// concurrent signups never collide.
+const generateUsername = (seed) => {
+  const cleaned = (seed || "user")
+    .toString()
+    .toLowerCase()
+    .replace(/[^a-z0-9]/g, "")
+    .slice(0, 20);
+  const base = cleaned || "user";
+  const suffix = crypto.randomBytes(3).toString("hex");
+  return `${base}${suffix}`;
+};
+
 // Register user with email verification
 exports.register = async (req, res) => {
   try {
@@ -54,15 +79,19 @@ exports.register = async (req, res) => {
           existingUser.otp = otp;
           existingUser.otpGeneratedAt = Date.now();
           await existingUser.save();
-          await transporter.sendMail({
-            from: process.env.EMAIL_USER,
-            to: emailorphone,
-            subject: "Verify Your Email Address",
-            html: `<p>Hello ${name},</p>
+          if (transporter) {
+            await transporter.sendMail({
+              from: process.env.EMAIL_USER,
+              to: emailorphone,
+              subject: "Verify Your Email Address",
+              html: `<p>Hello ${name},</p>
                  <p>Thank you for registering. Please verify your email address by entering the otp below:</p>
                  <p><strong>${otp}</strong></p>
                  <p>This otp is valid for 10 mins.</p>`,
-          });
+            });
+          } else {
+            console.warn("SMTP not configured - OTP email skipped for", emailorphone);
+          }
           return res.status(201).json({
             message:
               "Email is already registered. Please verify your email to log in. OTP sent to your email.",
@@ -108,7 +137,14 @@ exports.register = async (req, res) => {
     // Create and save the user
     const email = emailorphone.includes("@") ? emailorphone : null;
     const phone = emailorphone.includes("@") ? null : emailorphone;
-    const user = new User({ email, phone, password, name, isVerified: false });
+    const user = new User({
+      username: generateUsername(email || phone || name),
+      email,
+      phone,
+      password,
+      name,
+      isVerified: false,
+    });
     // console.log(user);
     await user.save();
     // console.log(user);
@@ -120,26 +156,24 @@ exports.register = async (req, res) => {
     user.otp = otp;
     await user.save();
     if (email) {
-      await transporter.sendMail({
-        from: process.env.EMAIL_USER,
-        to: email,
-        subject: "Verify Your Email Address",
-        html: `<p>Hello ${name},</p>
+      if (transporter) {
+        await transporter.sendMail({
+          from: process.env.EMAIL_USER,
+          to: email,
+          subject: "Verify Your Email Address",
+          html: `<p>Hello ${name},</p>
              <p>Thank you for registering. Please verify your email address by entering the otp below:</p>
              <p><strong>${otp}</strong></p>
              <p>This otp is valid for 10 mins.</p>`,
-      });
+        });
+      } else {
+        console.warn("SMTP not configured - verification email skipped for", email);
+      }
       res.status(201).json({
         message: "User registered successfully. Please verify your email.",
       });
     } else {
       //send sms
-      const formatContactNumber = (contactNumber) => {
-        if (contactNumber.startsWith("+91")) {
-          return contactNumber.slice(3); // Remove +91
-        }
-        return contactNumber;
-      };
       const formattedPhone = formatContactNumber(phone);
       const fast2smsData = {
         route: "otp",
@@ -163,6 +197,10 @@ exports.register = async (req, res) => {
         res.status(201).json({
           message:
             "User registered successfully. Please verify your phone number.",
+        });
+      } else {
+        res.status(400).json({
+          error: "User registered, but failed to send OTP to your phone number.",
         });
       }
     }
@@ -215,9 +253,14 @@ exports.login = async (req, res) => {
         });
     }
 
-    const token = jwt.sign({ id: user._id }, process.env.JWT_SECRET, {
-      expiresIn: "7d",
-    });
+    // NOTE: role must be embedded in the token — authorizeRole() middleware
+    // reads req.user.role, and without it every admin-gated route would
+    // reject even legitimate admins who signed in through this endpoint.
+    const token = jwt.sign(
+      { id: user._id, role: user.role },
+      process.env.JWT_SECRET,
+      { expiresIn: "7d" }
+    );
 
     res.json({
       token,
@@ -238,9 +281,9 @@ exports.verifyEmail = async (req, res) => {
     console.log(emailorphone, otp);
     let user;
     if (emailorphone.includes("@")) {
-      user = await findOne({ email: emailorphone });
+      user = await User.findOne({ email: emailorphone });
     } else {
-      user = await findOne({ phone: emailorphone });
+      user = await User.findOne({ phone: emailorphone });
     }
 
     if (!user) {
@@ -267,8 +310,8 @@ exports.verifyEmail = async (req, res) => {
     user.isVerified = true;
     user.otp = null; // Clear OTP after successful verification
     await user.save();
-    const token = sign(
-      { userId: user._id, role: user.role },
+    const token = jwt.sign(
+      { id: user._id, role: user.role },
       process.env.JWT_SECRET,
       { expiresIn: "1h" }
     );
@@ -291,7 +334,7 @@ exports.verifyEmail = async (req, res) => {
 
 exports.getAllUsers = async (req, res) => {
   try {
-    const users = await find();
+    const users = await User.find();
     res.status(200).json({ success: true, users });
   } catch (err) {
     res.status(500).json({ error: err.message });
@@ -324,7 +367,7 @@ exports.googleSignup = async (req, res) => {
 
     if (user) {
       const token = jwt.sign(
-        { userId: user._id, role: user.role },
+        { id: user._id, role: user.role },
         process.env.JWT_SECRET,
         { expiresIn: "1h" }
       );
@@ -344,18 +387,24 @@ exports.googleSignup = async (req, res) => {
     }
 
     // New user creation
+    // NOTE: `username` and `password` are required by the User schema even
+    // though Google-authenticated users never set/use a password directly.
+    // We generate a unique username and an unguessable random password
+    // (hashed by the pre-save hook) as placeholders.
     user = new User({
+      username: generateUsername(email || name),
       email,
       name,
       isVerified: true,
       avatar: picture,
+      password: crypto.randomBytes(24).toString("hex"),
       googleId: sub,
     });
 
     await user.save();
 
     const token = jwt.sign(
-      { userId: user._id, role: user.role },
+      { id: user._id, role: user.role },
       process.env.JWT_SECRET,
       { expiresIn: "1h" }
     );

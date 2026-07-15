@@ -3,6 +3,7 @@ const dotenv = require("dotenv");
 const connectToMongo = require("./config/db");
 const morgan = require("morgan");
 const cors = require("cors");
+const helmet = require("helmet");
 const cookieParser = require("cookie-parser");
 
 const authRoutes = require("./routes/authRoutes");
@@ -21,6 +22,7 @@ const checkoutRoutes = require("./routes/checkoutRoutes");
 dotenv.config();
 
 const app = express();
+app.use(helmet());
 app.use(express.json({ limit: "2mb" }));
 app.use(cookieParser());
 
@@ -53,9 +55,6 @@ app.options("*", corsMw);
 app.use(corsMw);
 app.use(morgan("dev"));
 connectToMongo();
-
-//middlewares
-app.use(express.json({ limit: "1mb" }));
 
 //routes
 app.get("/", (req, res) => {

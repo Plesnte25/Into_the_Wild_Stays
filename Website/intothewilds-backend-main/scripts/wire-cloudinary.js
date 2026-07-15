@@ -1,22 +1,39 @@
-import "dotenv/config.js";
-import mongoose from "mongoose";
-import { v2 as cloudinary } from "cloudinary";
-import Properties from "../models/Properties.js"; // adjust path if different
+// scripts/wire-cloudinary.js
+//
+// Backfills Properties.images / imagesPublicIds from a Cloudinary folder
+// structure. Requires MONGO_URI plus CLOUDINARY_CLOUD_NAME /
+// CLOUDINARY_API_KEY / CLOUDINARY_API_SECRET to be set in the environment —
+// see .env.example. This script intentionally does not run without them.
+
+require("dotenv").config();
+const mongoose = require("mongoose");
+const { v2: cloudinary } = require("cloudinary");
+const Properties = require("../models/Properties"); // adjust path if different
 
 // ----- CONFIG -----
 const MATCH =
   process.argv.find((a) => a.startsWith("--match="))?.split("=")[1] || "byId";
 
-const MONGO_URI =
-  process.env.MONGO_URI ||
-  "mongodb+srv://intothewildstays:5xopzIkh6cFpTynT@cluster0.q3utk.mongodb.net/itw?retryWrites=true&w=majority&appName=Cluster0";
+const { MONGO_URI, CLOUDINARY_CLOUD_NAME, CLOUDINARY_API_KEY, CLOUDINARY_API_SECRET } =
+  process.env;
 const ROOT = process.env.CLOUDINARY_FOLDER || "itw/uploads";
 const PROPS_ROOT = `${ROOT}/properties`;
 
+if (!MONGO_URI) {
+  console.error("wire-cloudinary: MONGO_URI is not set. Aborting.");
+  process.exit(1);
+}
+if (!CLOUDINARY_CLOUD_NAME || !CLOUDINARY_API_KEY || !CLOUDINARY_API_SECRET) {
+  console.error(
+    "wire-cloudinary: CLOUDINARY_CLOUD_NAME, CLOUDINARY_API_KEY and CLOUDINARY_API_SECRET must all be set. Aborting."
+  );
+  process.exit(1);
+}
+
 cloudinary.config({
-  cloud_name: "dvyc3hiay",
-  api_key: "642631877841988",
-  api_secret: "3Pj8XcPl-Af6vITEDNjh24Dgzxo",
+  cloud_name: CLOUDINARY_CLOUD_NAME,
+  api_key: CLOUDINARY_API_KEY,
+  api_secret: CLOUDINARY_API_SECRET,
 });
 
 function slug(s = "") {
